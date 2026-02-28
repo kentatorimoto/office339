@@ -14,7 +14,7 @@ export type Project = {
   slug: string;
   title: LocalizedText;
   period: string;
-  status: "ongoing" | "completed" | "archive";
+  status: "active" | "works" | "archive";
   role: LocalizedText;
   description: LocalizedText;
   thumbnail: string;
@@ -31,8 +31,8 @@ export function getAllProjects(): Project[] {
   const projects = projectsData as Project[];
   // ongoing を上に、あとは order 順
   return projects.sort((a, b) => {
-    if (a.status === "ongoing" && b.status !== "ongoing") return -1;
-    if (a.status !== "ongoing" && b.status === "ongoing") return 1;
+    if (a.status === "active" && b.status !== "active") return -1;
+    if (a.status !== "active" && b.status === "active") return 1;
     return a.order - b.order;
   });
 }
@@ -55,10 +55,10 @@ export function getAdjacentProjects(slug: string): {
 
 export function getStatusLabel(status: Project["status"]): string {
   switch (status) {
-    case "ongoing":
-      return "Ongoing";
-    case "completed":
-      return "Completed";
+    case "active":
+      return "Active";
+    case "works":
+      return "Works";
     case "archive":
       return "Archive";
   }

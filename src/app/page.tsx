@@ -59,7 +59,7 @@ export default function Home() {
                   </h3>
                   <span
                     className={`text-[10px] tracking-wider px-2 py-0.5 rounded-full border shrink-0 ${
-                      project.status === "ongoing"
+                      project.status === "active"
                         ? "border-black text-black"
                         : "border-gray-300 text-gray-400"
                     }`}

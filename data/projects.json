@@ -6,7 +6,7 @@
       "en": "GANKE TSUMUGI"
     },
     "period": "2024 -",
-    "status": "ongoing",
+    "status": "active",
     "role": {
       "ja": "企画・ディレクション",
       "en": "Planning & Direction"
@@ -38,7 +38,7 @@
       "en": "GANKE FES"
     },
     "period": "2014 -",
-    "status": "ongoing",
+    "status": "active",
     "role": {
       "ja": "主催",
       "en": "Organizer"
@@ -73,7 +73,7 @@
       "en": "PROJECT ATAMI / ATAMI ART GRANT"
     },
     "period": "2021 -",
-    "status": "ongoing",
+    "status": "active",
     "role": {
       "ja": "企画・ディレクション",
       "en": "Planning & Direction"
@@ -101,32 +101,35 @@
   {
     "slug": "shanghai-lights",
     "title": {
-      "ja": "SHANGHAI LIGHTS BY HUMAN MOVING",
-      "en": "SHANGHAI LIGHTS BY HUMAN MOVING"
+      "ja": "Shanghai Lights by Human Moving",
+      "en": "Shanghai Lights by Human Moving"
     },
-    "period": "",
-    "status": "archive",
+    "period": "2016",
+    "status": "works",
     "role": {
-      "ja": "",
-      "en": ""
+      "ja": "企画・プロデュース",
+      "en": "Planning & Production"
     },
     "description": {
-      "ja": "上海で開催されたライトインスタレーション展。都市空間における光と人の動きの関係性をテーマに、インタラクティブな作品群を展示した。",
-      "en": "A light installation exhibition held in Shanghai, exploring the relationship between light and human movement in urban spaces."
+      "ja": "上海の中心に位置する歩行者デッキを行き交う人々の動きをトラッキングし、その速度や密度を光へと変換するインタラクティブ・ライトインスタレーション。色・太さ・速度の異なる光がリアルタイムに生成され、無数の個人の違いが重なり合うことで唯一無二の光景が生まれる。ひとりでは成立しない光——多様な人々の存在そのものが都市を動かすエネルギーであることを可視化する試み。2016年12月、上海環球金融中心にて。来場者30万人。",
+      "en": "An interactive light installation that tracks the movements of pedestrians on a central Shanghai walkway, converting their speed and density into light. Rays of varying color, thickness, and speed are generated in real time — as countless individual differences overlap, a singular spectacle emerges. Light that cannot exist through one person alone: an attempt to visualize how the presence of diverse people is the very energy that moves a city. Exhibited at the Shanghai World Financial Center, December 2016. Over 300,000 visitors."
     },
-    "thumbnail": "/images/projects/shanghai-lights/01.jpg",
+    "thumbnail": "/images/projects/shanghai-lights/hero.jpg",
     "images": [
+      "/images/projects/shanghai-lights/hero.jpg",
       "/images/projects/shanghai-lights/01.jpg",
-      "/images/projects/shanghai-lights/02.jpg",
+      "/images/projects/shanghai-lights/2.jpg",
       "/images/projects/shanghai-lights/03.jpg",
       "/images/projects/shanghai-lights/04.jpg",
-      "/images/projects/shanghai-lights/05.jpg",
-      "/images/projects/shanghai-lights/06.jpg"
+      "/images/projects/shanghai-lights/05.jpg"
     ],
     "externalUrl": "",
+    "videos": [
+      { "url": "https://vimeo.com/199030395", "title": "SHANGHAI LIGHTS BY HUMAN MOVING" }
+    ],
     "artists": [],
     "tags": ["installation", "shanghai", "light"],
-    "order": 5
+    "order": 4
   },
   {
     "slug": "artificial-garden",

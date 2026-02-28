@@ -11,6 +11,10 @@ function getEmbedUrl(url: string): string {
   const longMatch = url.match(/[?&]v=([^&]+)/);
   if (longMatch) return `https://www.youtube.com/embed/${longMatch[1]}`;
 
+  // vimeo.com/ID
+  const vimeoMatch = url.match(/vimeo\.com\/(\d+)/);
+  if (vimeoMatch) return `https://player.vimeo.com/video/${vimeoMatch[1]}`;
+
   return url;
 }
 

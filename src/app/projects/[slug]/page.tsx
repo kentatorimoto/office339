@@ -66,7 +66,7 @@ export default async function ProjectPage({ params }: Props) {
           {project.role.ja && <span>{project.role.ja}</span>}
           <span
             className={`border px-2 py-0.5 rounded-full ${
-              project.status === "ongoing"
+              project.status === "active"
                 ? "border-black text-black"
                 : "border-gray-300 text-gray-400"
             }`}
