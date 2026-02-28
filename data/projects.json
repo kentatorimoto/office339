@@ -12,8 +12,8 @@
       "en": "Planning & Direction"
     },
     "description": {
-      "ja": "GANKE FESから生まれたオリジナルパフォーマンス。くったり湖畔に残るアイヌの神話をモチーフに、子どもたちが「フレウ」という鳥になり、楽器を鳴らしながら会場を練り歩く。土地の記憶を次の世代へ紡いでいく試み。",
-      "en": "An original performance born from GANKE FES. Inspired by an Ainu myth preserved on the shores of Lake Kuttara, children become birds called \"Freu,\" parading through the venue with instruments in hand. An attempt to pass the memory of the land to the next generation."
+      "ja": "GANKE FESから生まれた、子どもたちが参加する回遊型パフォーマンス。くったり湖畔に残るアイヌの神話をモチーフに、子どもたちが鳥「フレウ」となり、楽器を鳴らしながら会場を練り歩く。土地の記憶を、次の世代へ手渡していく試み。",
+      "en": "A participatory, processional performance born from GANKE FES. Inspired by an Ainu myth preserved on the shores of Lake Kuttara, children become the bird \"Freu,\" parading through the venue with instruments in hand. An attempt to pass the memory of the land to the next generation."
     },
     "thumbnail": "/images/projects/ganke-tsumugi/hero.jpg",
     "images": [
@@ -51,10 +51,12 @@
     "thumbnail": "/images/projects/ganke-fes/hero.jpg",
     "images": [
       "/images/projects/ganke-fes/hero.jpg",
-      "/images/projects/ganke-fes/main-stage.jpg",
-      "/images/projects/ganke-fes/night-live.jpg",
-      "/images/projects/ganke-fes/night-tent.jpg",
-      "/images/projects/ganke-fes/tsumugi.jpg"
+      "/images/projects/ganke-fes/01.jpg",
+      "/images/projects/ganke-fes/02.jpg",
+      "/images/projects/ganke-fes/03.jpg",
+      "/images/projects/ganke-fes/04.JPG",
+      "/images/projects/ganke-fes/05.jpg",
+      "/images/projects/ganke-fes/06.jpg"
     ],
     "externalUrl": "https://www.ganke-fes.com/",
     "videos": [
