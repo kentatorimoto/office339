@@ -55,8 +55,8 @@ export default function AboutPage() {
               alt={aboutData.name.ja}
               width={800}
               height={533}
-              className="max-w-lg w-full h-auto"
-              sizes="(max-width: 768px) 100vw, 512px"
+              className="max-w-xs w-full h-auto"
+              sizes="(max-width: 768px) 70vw, 320px"
             />
             <p className="mt-2 text-[11px] text-gray-400 tracking-wider">
               photo by Yukinori Tokoro
