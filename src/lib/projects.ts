@@ -21,6 +21,7 @@ export type Project = {
   images: string[];
   externalUrl: string;
   artists: Artist[];
+  tagline?: string;
   tags: string[];
   order: number;
 };
