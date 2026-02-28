@@ -12,8 +12,8 @@ export default function Home() {
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-light italic tracking-tight leading-tight font-display">
           Art, as Practice.
         </h1>
-        <p className="mt-3 md:mt-4 text-sm md:text-base font-serif text-gray-500">
-          アートを実践として。
+        <p className="mt-5 md:mt-6 text-base md:text-lg font-serif text-gray-500">
+          アートを、実践として
         </p>
         <p className="mt-8 text-xs md:text-sm tracking-[0.3em] text-gray-400">
           SHANGHAI - TOKACHI - TOKYO
