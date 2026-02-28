@@ -9,10 +9,13 @@ export default function Home() {
     <>
       {/* Hero / Intro */}
       <section className="px-6 md:px-12 max-w-7xl mx-auto pt-48 md:pt-48 pb-60 md:pb-56">
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-light tracking-tight leading-tight font-serif">
-          アートで発想する
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-light italic tracking-tight leading-tight font-display">
+          Art, as Practice.
         </h1>
-        <p className="mt-6 text-xs md:text-sm tracking-[0.3em] text-gray-400">
+        <p className="mt-3 md:mt-4 text-sm md:text-base font-serif text-gray-500">
+          アートを実践として。
+        </p>
+        <p className="mt-8 text-xs md:text-sm tracking-[0.3em] text-gray-400">
           SHANGHAI - TOKACHI - TOKYO
         </p>
       </section>
