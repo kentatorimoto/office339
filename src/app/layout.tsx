@@ -16,6 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Shippori+Mincho:wght@400;500&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className="bg-white text-gray-900 font-sans">
         <Header />
         <main className="min-h-screen pt-18 md:pt-24">{children}</main>
