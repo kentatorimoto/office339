@@ -1,0 +1,251 @@
+[
+  {
+    "slug": "ganke-fes",
+    "title": {
+      "ja": "GANKE FES",
+      "en": "GANKE FES"
+    },
+    "period": "2015 -",
+    "status": "ongoing",
+    "role": {
+      "ja": "主催",
+      "en": "Organizer"
+    },
+    "description": {
+      "ja": "北海道・登別カルルス、クッタラ湖畔で開催する野外音楽＆アートフェスティバル。",
+      "en": "Outdoor music & art festival held at Lake Kuttara, Noboribetsu Karurusu, Hokkaido."
+    },
+    "thumbnail": "/images/projects/ganke-fes/01.jpg",
+    "images": [
+      "/images/projects/ganke-fes/01.jpg",
+      "/images/projects/ganke-fes/02.jpg"
+    ],
+    "externalUrl": "https://gankefes.com",
+    "artists": [],
+    "tags": ["music", "art", "hokkaido", "outdoor"],
+    "order": 1
+  },
+  {
+    "slug": "project-atami",
+    "title": {
+      "ja": "PROJECT ATAMI",
+      "en": "PROJECT ATAMI"
+    },
+    "period": "2021 - 2024",
+    "status": "completed",
+    "role": {
+      "ja": "東アジア連携プログラムディレクター",
+      "en": "East Asia Collaboration Program Director"
+    },
+    "description": {
+      "ja": "熱海を拠点とした東アジア地域間の文化交流プログラム。日本・中国・韓国・台湾のアーティストやクリエイターが参加し、地域資源を活用した共同制作と対話の場を構築した。",
+      "en": "A cultural exchange program based in Atami, connecting artists and creators from Japan, China, South Korea, and Taiwan."
+    },
+    "thumbnail": "/images/projects/project-atami/thumb.jpg",
+    "images": [
+      "/images/projects/project-atami/01.jpg",
+      "/images/projects/project-atami/02.jpg"
+    ],
+    "externalUrl": "https://projectatami.com",
+    "artists": [],
+    "tags": ["art", "east-asia", "curation", "residency"],
+    "order": 2
+  },
+  {
+    "slug": "shanghai-lights",
+    "title": {
+      "ja": "SHANGHAI LIGHTS BY HUMAN MOVING",
+      "en": "SHANGHAI LIGHTS BY HUMAN MOVING"
+    },
+    "period": "",
+    "status": "archive",
+    "role": {
+      "ja": "",
+      "en": ""
+    },
+    "description": {
+      "ja": "上海で開催されたライトインスタレーション展。都市空間における光と人の動きの関係性をテーマに、インタラクティブな作品群を展示した。",
+      "en": "A light installation exhibition held in Shanghai, exploring the relationship between light and human movement in urban spaces."
+    },
+    "thumbnail": "/images/projects/shanghai-lights/01.jpg",
+    "images": [
+      "/images/projects/shanghai-lights/01.jpg",
+      "/images/projects/shanghai-lights/02.jpg",
+      "/images/projects/shanghai-lights/03.jpg",
+      "/images/projects/shanghai-lights/04.jpg",
+      "/images/projects/shanghai-lights/05.jpg",
+      "/images/projects/shanghai-lights/06.jpg"
+    ],
+    "externalUrl": "",
+    "artists": [],
+    "tags": ["installation", "shanghai", "light"],
+    "order": 3
+  },
+  {
+    "slug": "artificial-garden",
+    "title": {
+      "ja": "ARTificial Garden",
+      "en": "ARTificial Garden"
+    },
+    "period": "",
+    "status": "archive",
+    "role": {
+      "ja": "",
+      "en": ""
+    },
+    "description": {
+      "ja": "人工と自然の境界を問い直すグループ展。テクノロジーを用いた庭園的空間を構築し、デジタルとオーガニックの共生を提示した。",
+      "en": "A group exhibition questioning the boundary between artificial and natural, constructing a garden-like space using technology."
+    },
+    "thumbnail": "/images/projects/artificial-garden/01.jpg",
+    "images": [
+      "/images/projects/artificial-garden/01.jpg",
+      "/images/projects/artificial-garden/02.jpg",
+      "/images/projects/artificial-garden/03.jpg",
+      "/images/projects/artificial-garden/04.jpg",
+      "/images/projects/artificial-garden/05.jpg",
+      "/images/projects/artificial-garden/06.jpg",
+      "/images/projects/artificial-garden/07.jpg",
+      "/images/projects/artificial-garden/08.jpg",
+      "/images/projects/artificial-garden/09.jpg",
+      "/images/projects/artificial-garden/10.jpg",
+      "/images/projects/artificial-garden/11.jpg",
+      "/images/projects/artificial-garden/12.jpg",
+      "/images/projects/artificial-garden/13.jpg",
+      "/images/projects/artificial-garden/14.jpg",
+      "/images/projects/artificial-garden/15.jpg",
+      "/images/projects/artificial-garden/16.jpg",
+      "/images/projects/artificial-garden/17.jpg",
+      "/images/projects/artificial-garden/18.jpg",
+      "/images/projects/artificial-garden/19.jpg",
+      "/images/projects/artificial-garden/20.jpg",
+      "/images/projects/artificial-garden/21.jpg",
+      "/images/projects/artificial-garden/22.jpg",
+      "/images/projects/artificial-garden/23.jpg",
+      "/images/projects/artificial-garden/24.jpg",
+      "/images/projects/artificial-garden/25.jpg",
+      "/images/projects/artificial-garden/26.jpg",
+      "/images/projects/artificial-garden/27.jpg",
+      "/images/projects/artificial-garden/28.jpg",
+      "/images/projects/artificial-garden/29.jpg",
+      "/images/projects/artificial-garden/30.jpg",
+      "/images/projects/artificial-garden/31.jpg",
+      "/images/projects/artificial-garden/32.jpg",
+      "/images/projects/artificial-garden/33.jpg"
+    ],
+    "externalUrl": "",
+    "artists": [],
+    "tags": ["exhibition", "technology", "nature"],
+    "order": 4
+  },
+  {
+    "slug": "filter-the-public",
+    "title": {
+      "ja": "滤镜 FILTER THE PUBLIC",
+      "en": "FILTER THE PUBLIC"
+    },
+    "period": "",
+    "status": "archive",
+    "role": {
+      "ja": "",
+      "en": ""
+    },
+    "description": {
+      "ja": "公共空間におけるフィルタリングをテーマにした展覧会。SNS時代における「見る」と「見せる」の構造を、メディアアート作品を通じて検証した。",
+      "en": "An exhibition themed on filtering in public spaces, examining the structure of 'seeing' and 'showing' in the age of social media through media art."
+    },
+    "thumbnail": "/images/projects/filter-the-public/01.jpg",
+    "images": [
+      "/images/projects/filter-the-public/01.jpg",
+      "/images/projects/filter-the-public/02.jpg",
+      "/images/projects/filter-the-public/03.jpg",
+      "/images/projects/filter-the-public/04.jpg",
+      "/images/projects/filter-the-public/05.jpg",
+      "/images/projects/filter-the-public/06.jpg",
+      "/images/projects/filter-the-public/07.jpg",
+      "/images/projects/filter-the-public/08.jpg",
+      "/images/projects/filter-the-public/09.jpg",
+      "/images/projects/filter-the-public/10.jpg"
+    ],
+    "externalUrl": "",
+    "artists": [],
+    "tags": ["exhibition", "media-art", "public-space"],
+    "order": 5
+  },
+  {
+    "slug": "moere-summer-festival-2013",
+    "title": {
+      "ja": "MOERE SUMMER FESTIVAL 2013",
+      "en": "MOERE SUMMER FESTIVAL 2013"
+    },
+    "period": "2013",
+    "status": "archive",
+    "role": {
+      "ja": "",
+      "en": ""
+    },
+    "description": {
+      "ja": "札幌・モエレ沼公園で開催された野外フェスティバル。イサム・ノグチが設計した公園を舞台に、音楽とアートが融合したイベントを企画・制作した。",
+      "en": "An outdoor festival held at Moerenuma Park in Sapporo, combining music and art in the park designed by Isamu Noguchi."
+    },
+    "thumbnail": "/images/projects/moere-summer-festival/01_poster.jpg",
+    "images": [
+      "/images/projects/moere-summer-festival/01_poster.jpg",
+      "/images/projects/moere-summer-festival/02.jpg",
+      "/images/projects/moere-summer-festival/03.jpg",
+      "/images/projects/moere-summer-festival/04.jpg",
+      "/images/projects/moere-summer-festival/05.jpg",
+      "/images/projects/moere-summer-festival/06.jpg",
+      "/images/projects/moere-summer-festival/07.jpg",
+      "/images/projects/moere-summer-festival/08.jpg",
+      "/images/projects/moere-summer-festival/09.jpg",
+      "/images/projects/moere-summer-festival/10.jpg",
+      "/images/projects/moere-summer-festival/11.jpg",
+      "/images/projects/moere-summer-festival/12.jpg",
+      "/images/projects/moere-summer-festival/13.jpg",
+      "/images/projects/moere-summer-festival/14.jpg",
+      "/images/projects/moere-summer-festival/15.jpg",
+      "/images/projects/moere-summer-festival/16.jpg",
+      "/images/projects/moere-summer-festival/17.jpg",
+      "/images/projects/moere-summer-festival/18.jpg",
+      "/images/projects/moere-summer-festival/19.jpg",
+      "/images/projects/moere-summer-festival/20.jpg",
+      "/images/projects/moere-summer-festival/21.jpg",
+      "/images/projects/moere-summer-festival/22.jpg",
+      "/images/projects/moere-summer-festival/23.jpg",
+      "/images/projects/moere-summer-festival/24.jpg",
+      "/images/projects/moere-summer-festival/25.jpg",
+      "/images/projects/moere-summer-festival/26.jpg",
+      "/images/projects/moere-summer-festival/27.jpg",
+      "/images/projects/moere-summer-festival/28.jpg",
+      "/images/projects/moere-summer-festival/29.jpg",
+      "/images/projects/moere-summer-festival/30.jpg",
+      "/images/projects/moere-summer-festival/31.jpg",
+      "/images/projects/moere-summer-festival/32.jpg",
+      "/images/projects/moere-summer-festival/33.jpg",
+      "/images/projects/moere-summer-festival/34.jpg",
+      "/images/projects/moere-summer-festival/35.jpg",
+      "/images/projects/moere-summer-festival/36.jpg",
+      "/images/projects/moere-summer-festival/37.jpg",
+      "/images/projects/moere-summer-festival/38.jpg",
+      "/images/projects/moere-summer-festival/39.jpg",
+      "/images/projects/moere-summer-festival/40.jpg",
+      "/images/projects/moere-summer-festival/41.jpg",
+      "/images/projects/moere-summer-festival/42.jpg",
+      "/images/projects/moere-summer-festival/43.jpg",
+      "/images/projects/moere-summer-festival/44.jpg",
+      "/images/projects/moere-summer-festival/45.jpg",
+      "/images/projects/moere-summer-festival/46.jpg",
+      "/images/projects/moere-summer-festival/47.jpg",
+      "/images/projects/moere-summer-festival/48.jpg",
+      "/images/projects/moere-summer-festival/49.jpg",
+      "/images/projects/moere-summer-festival/50.jpg",
+      "/images/projects/moere-summer-festival/51.jpg",
+      "/images/projects/moere-summer-festival/52.jpg"
+    ],
+    "externalUrl": "",
+    "artists": [],
+    "tags": ["festival", "music", "art", "sapporo"],
+    "order": 6
+  }
+]
