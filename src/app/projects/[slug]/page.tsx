@@ -75,6 +75,9 @@ export default async function ProjectPage({ params }: Props) {
         </div>
       </header>
 
+      {/* Tagline */}
+      {project.tagline && <Tagline text={project.tagline} />}
+
       {/* Hero image */}
       <div className="relative aspect-[16/9] bg-gray-100 overflow-hidden">
         <Image
@@ -86,9 +89,6 @@ export default async function ProjectPage({ params }: Props) {
           priority
         />
       </div>
-
-      {/* Tagline */}
-      {project.tagline && <Tagline text={project.tagline} />}
 
       {/* Description */}
       <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-16 py-16 md:py-24">
