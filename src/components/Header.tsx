@@ -28,7 +28,7 @@ export default function Header() {
               href="/"
               className="text-sm tracking-wider text-gray-600 hover:text-black transition-colors"
             >
-              Projects
+              Practice
             </Link>
             <Link
               href="/about"
@@ -72,7 +72,7 @@ export default function Header() {
               className="text-sm tracking-wider text-gray-600 hover:text-black transition-colors"
               onClick={() => setIsOpen(false)}
             >
-              Projects
+              Practice
             </Link>
             <Link
               href="/about"

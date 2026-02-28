@@ -23,7 +23,7 @@ export default function Home() {
       {/* Project Grid */}
       <section className="px-6 md:px-12 max-w-7xl mx-auto pb-20">
         <h2 className="text-xs tracking-widest text-gray-400 uppercase mb-12 md:mb-16">
-          Projects
+          Practice
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 md:gap-y-24">
           {projects.map((project, index) => (

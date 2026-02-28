@@ -48,7 +48,7 @@ export default async function ProjectPage({ params }: Props) {
           href="/"
           className="text-xs tracking-wider text-gray-400 hover:text-black transition-colors"
         >
-          &larr; Projects
+          &larr; Practice
         </Link>
       </div>
 
