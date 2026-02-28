@@ -7,7 +7,7 @@ import {
   getAdjacentProjects,
   getStatusLabel,
 } from "@/lib/projects";
-import Tagline from "@/components/Tagline";
+
 import type { Metadata } from "next";
 
 type Props = {
@@ -74,9 +74,6 @@ export default async function ProjectPage({ params }: Props) {
           </span>
         </div>
       </header>
-
-      {/* Tagline */}
-      {project.tagline && <Tagline text={project.tagline} />}
 
       {/* Hero image */}
       <div className="relative aspect-[16/9] bg-gray-100 overflow-hidden">

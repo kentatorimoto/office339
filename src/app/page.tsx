@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getAllProjects, getStatusLabel } from "@/lib/projects";
-import PresenceSection from "@/components/PresenceSection";
 
 export default function Home() {
   const projects = getAllProjects();
@@ -20,9 +19,6 @@ export default function Home() {
           SHANGHAI - TOKACHI - TOKYO
         </p>
       </section>
-
-      {/* Presence */}
-      <PresenceSection />
 
       {/* Project Grid */}
       <section className="px-6 md:px-12 max-w-7xl mx-auto pb-20">
