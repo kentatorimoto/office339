@@ -62,33 +62,39 @@
     ],
     "artists": [],
     "tags": ["music", "art", "hokkaido", "outdoor"],
-    "order": 2
+    "order": 3
   },
   {
     "slug": "project-atami",
     "title": {
-      "ja": "PROJECT ATAMI",
-      "en": "PROJECT ATAMI"
+      "ja": "PROJECT ATAMI / ATAMI ART GRANT",
+      "en": "PROJECT ATAMI / ATAMI ART GRANT"
     },
-    "period": "2021 - 2024",
-    "status": "completed",
+    "period": "2021 -",
+    "status": "ongoing",
     "role": {
-      "ja": "東アジア連携プログラムディレクター",
-      "en": "East Asia Collaboration Program Director"
+      "ja": "企画・ディレクション",
+      "en": "Planning & Direction"
     },
     "description": {
-      "ja": "熱海を拠点とした東アジア地域間の文化交流プログラム。日本・中国・韓国・台湾のアーティストやクリエイターが参加し、地域資源を活用した共同制作と対話の場を構築した。",
-      "en": "A cultural exchange program based in Atami, connecting artists and creators from Japan, China, South Korea, and Taiwan."
+      "ja": "静岡県熱海市を舞台に、アートを通じて都市と文化の新しい関係性を創出するプロジェクト。滞在制作プログラム「ATAMI ART RESIDENCE」と街全体を会場とするアートイベント「ATAMI ART GRANT」を軸に、2021年より始動。office339はプロジェクト立ち上げ期から参画し、プログラムディレクター、東アジア文化プログラムディレクター、Metaプログラムディレクターとして企画設計・地域連携・国際交流のディレクションを担う。",
+      "en": "A project that creates new relationships between city and culture through art, set in Atami, Shizuoka. Centered on the artist-in-residence program \"ATAMI ART RESIDENCE\" and the citywide art event \"ATAMI ART GRANT,\" it launched in 2021. office339 has been involved since inception, directing program design, community engagement, and international exchange as Program Director, East Asia Cultural Program Director, and Meta Program Director."
     },
-    "thumbnail": "/images/projects/project-atami/thumb.jpg",
+    "thumbnail": "/images/projects/project-atami/hero.jpeg",
     "images": [
-      "/images/projects/project-atami/01.jpg",
-      "/images/projects/project-atami/02.jpg"
+      "/images/projects/project-atami/hero.jpeg",
+      "/images/projects/project-atami/01.jpeg",
+      "/images/projects/project-atami/02.jpeg",
+      "/images/projects/project-atami/03.jpeg",
+      "/images/projects/project-atami/04.jpeg"
     ],
-    "externalUrl": "https://projectatami.com",
+    "externalUrl": "https://projectatami.com/",
+    "videos": [
+      { "url": "https://www.youtube.com/watch?v=qUjBtFu6EpE", "title": "ATAMI ART GRANT 2021: DOCUMENT" }
+    ],
     "artists": [],
     "tags": ["art", "east-asia", "curation", "residency"],
-    "order": 3
+    "order": 2
   },
   {
     "slug": "shanghai-lights",
@@ -118,7 +124,7 @@
     "externalUrl": "",
     "artists": [],
     "tags": ["installation", "shanghai", "light"],
-    "order": 4
+    "order": 5
   },
   {
     "slug": "artificial-garden",
@@ -175,7 +181,7 @@
     "externalUrl": "",
     "artists": [],
     "tags": ["exhibition", "technology", "nature"],
-    "order": 5
+    "order": 6
   },
   {
     "slug": "filter-the-public",
@@ -209,7 +215,7 @@
     "externalUrl": "",
     "artists": [],
     "tags": ["exhibition", "media-art", "public-space"],
-    "order": 6
+    "order": 7
   },
   {
     "slug": "moere-summer-festival-2013",
@@ -285,6 +291,6 @@
     "externalUrl": "",
     "artists": [],
     "tags": ["festival", "music", "art", "sapporo"],
-    "order": 7
+    "order": 8
   }
 ]
