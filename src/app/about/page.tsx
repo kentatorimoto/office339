@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Metadata } from "next";
 import aboutData from "../../../data/about.json";
 
@@ -48,12 +49,19 @@ export default function AboutPage() {
             <p className="mt-1 text-sm text-gray-400">{aboutData.name.en}</p>
             <p className="mt-3 text-sm text-gray-500">{aboutData.title.ja}</p>
           </div>
-          <p className="text-base md:text-lg leading-relaxed font-light">
-            {aboutData.bio.ja}
-          </p>
-          <p className="text-sm leading-relaxed text-gray-400">
-            {aboutData.bio.en}
-          </p>
+          <div>
+            <Image
+              src="/images/about/profile.jpg"
+              alt={aboutData.name.ja}
+              width={800}
+              height={533}
+              className="max-w-lg w-full h-auto"
+              sizes="(max-width: 768px) 100vw, 512px"
+            />
+            <p className="mt-2 text-[11px] text-gray-400 tracking-wider">
+              photo by Yukinori Tokoro
+            </p>
+          </div>
         </div>
       </section>
 
