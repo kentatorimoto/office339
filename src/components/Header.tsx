@@ -26,13 +26,13 @@ export default function Header() {
           <nav className="hidden md:flex items-center gap-10">
             <Link
               href="/"
-              className="text-sm tracking-wider text-gray-600 hover:text-black transition-colors"
+              className="text-sm tracking-[0.15em] font-light text-gray-600 hover:text-black transition-colors"
             >
               Practice
             </Link>
             <Link
               href="/about"
-              className="text-sm tracking-wider text-gray-600 hover:text-black transition-colors"
+              className="text-sm tracking-[0.15em] font-light text-gray-600 hover:text-black transition-colors"
             >
               About
             </Link>
@@ -69,14 +69,14 @@ export default function Header() {
           <div className="px-6 py-8 flex flex-col gap-6">
             <Link
               href="/"
-              className="text-sm tracking-wider text-gray-600 hover:text-black transition-colors"
+              className="text-sm tracking-[0.15em] font-light text-gray-600 hover:text-black transition-colors"
               onClick={() => setIsOpen(false)}
             >
               Practice
             </Link>
             <Link
               href="/about"
-              className="text-sm tracking-wider text-gray-600 hover:text-black transition-colors"
+              className="text-sm tracking-[0.15em] font-light text-gray-600 hover:text-black transition-colors"
               onClick={() => setIsOpen(false)}
             >
               About
