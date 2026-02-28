@@ -1,5 +1,37 @@
 [
   {
+    "slug": "ganke-tsumugi",
+    "title": {
+      "ja": "ガンケツムギ",
+      "en": "GANKE TSUMUGI"
+    },
+    "period": "2024 -",
+    "status": "ongoing",
+    "role": {
+      "ja": "企画・ディレクション",
+      "en": "Planning & Direction"
+    },
+    "description": {
+      "ja": "GANKE FESから生まれたオリジナルパフォーマンス。くったり湖畔に残るアイヌの神話をモチーフに、子どもたちが「フレウ」という鳥になり、楽器を鳴らしながら会場を練り歩く。土地の記憶を次の世代へ紡いでいく試み。",
+      "en": "An original performance born from GANKE FES. Inspired by an Ainu myth preserved on the shores of Lake Kuttara, children become birds called \"Freu,\" parading through the venue with instruments in hand. An attempt to pass the memory of the land to the next generation."
+    },
+    "thumbnail": "/images/projects/ganke-tsumugi/hero.jpg",
+    "images": [
+      "/images/projects/ganke-tsumugi/hero.jpg",
+      "/images/projects/ganke-tsumugi/01.jpg",
+      "/images/projects/ganke-tsumugi/02.jpg",
+      "/images/projects/ganke-tsumugi/03.jpg",
+      "/images/projects/ganke-tsumugi/04.jpg"
+    ],
+    "externalUrl": "",
+    "videos": [
+      { "url": "https://youtu.be/oXjbott58kM", "title": "ガンケツムギ2025" }
+    ],
+    "artists": [],
+    "tags": ["performance", "hokkaido", "ainu", "children"],
+    "order": 1
+  },
+  {
     "slug": "ganke-fes",
     "title": {
       "ja": "GANKE FES",
@@ -30,7 +62,7 @@
     ],
     "artists": [],
     "tags": ["music", "art", "hokkaido", "outdoor"],
-    "order": 1
+    "order": 2
   },
   {
     "slug": "project-atami",
@@ -56,7 +88,7 @@
     "externalUrl": "https://projectatami.com",
     "artists": [],
     "tags": ["art", "east-asia", "curation", "residency"],
-    "order": 2
+    "order": 3
   },
   {
     "slug": "shanghai-lights",
@@ -86,7 +118,7 @@
     "externalUrl": "",
     "artists": [],
     "tags": ["installation", "shanghai", "light"],
-    "order": 3
+    "order": 4
   },
   {
     "slug": "artificial-garden",
@@ -143,7 +175,7 @@
     "externalUrl": "",
     "artists": [],
     "tags": ["exhibition", "technology", "nature"],
-    "order": 4
+    "order": 5
   },
   {
     "slug": "filter-the-public",
@@ -177,7 +209,7 @@
     "externalUrl": "",
     "artists": [],
     "tags": ["exhibition", "media-art", "public-space"],
-    "order": 5
+    "order": 6
   },
   {
     "slug": "moere-summer-festival-2013",
@@ -253,6 +285,6 @@
     "externalUrl": "",
     "artists": [],
     "tags": ["festival", "music", "art", "sapporo"],
-    "order": 6
+    "order": 7
   }
 ]
