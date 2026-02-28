@@ -7,6 +7,7 @@ import {
   getAdjacentProjects,
   getStatusLabel,
 } from "@/lib/projects";
+import VideoSection from "@/components/VideoSection";
 
 import type { Metadata } from "next";
 
@@ -132,6 +133,11 @@ export default async function ProjectPage({ params }: Props) {
             </div>
           ))}
         </div>
+      )}
+
+      {/* Film */}
+      {project.videos && project.videos.length > 0 && (
+        <VideoSection videos={project.videos} />
       )}
 
       {/* Artists */}

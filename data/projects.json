@@ -24,7 +24,10 @@
       "/images/projects/ganke-fes/night-tent.jpg",
       "/images/projects/ganke-fes/tsumugi.jpg"
     ],
-    "externalUrl": "https://gankefes.com",
+    "externalUrl": "https://www.ganke-fes.com/",
+    "videos": [
+      { "url": "https://youtu.be/9x4SfiUvrV8?si=xy1LWM4ZCYyobNDx" }
+    ],
     "artists": [],
     "tags": ["music", "art", "hokkaido", "outdoor"],
     "order": 1

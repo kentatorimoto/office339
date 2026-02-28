@@ -22,6 +22,7 @@ export type Project = {
   externalUrl: string;
   artists: Artist[];
   tagline?: string;
+  videos?: { url: string; title?: string }[];
   tags: string[];
   order: number;
 };
