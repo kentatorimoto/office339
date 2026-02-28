@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       {/* Hero / Intro */}
-      <section className="px-6 md:px-12 max-w-7xl mx-auto pt-20 md:pt-32 pb-20 md:pb-32">
+      <section className="px-6 md:px-12 max-w-7xl mx-auto pt-32 md:pt-48 pb-40 md:pb-56">
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-light tracking-tight leading-tight font-serif">
           アートで発想する
         </h1>
