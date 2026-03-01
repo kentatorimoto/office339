@@ -14,11 +14,17 @@ type Program = {
   href?: string;
 };
 
+type TextSection = {
+  label: string;
+  items: string[];
+};
+
 type ExhibitionInfo = {
   concept?: string;
   artists?: ExhibitionArtist[];
   programs?: Program[];
   credits?: Credit[];
+  textSections?: TextSection[];
 };
 
 export default function ExhibitionSection({ info }: { info: ExhibitionInfo }) {
@@ -111,6 +117,21 @@ export default function ExhibitionSection({ info }: { info: ExhibitionInfo }) {
           </div>
         </div>
       )}
+      {/* Text Sections (slash-separated) */}
+      {info.textSections?.map((section, index) => (
+        <div key={index} className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-16 py-16 md:py-24">
+          <div className="md:col-span-4">
+            <h2 className="text-xs tracking-widest text-gray-400 uppercase">
+              {section.label}
+            </h2>
+          </div>
+          <div className="md:col-span-8">
+            <p className="text-xs leading-relaxed font-light text-gray-400">
+              {section.items.join(" / ")}
+            </p>
+          </div>
+        </div>
+      ))}
     </>
   );
 }

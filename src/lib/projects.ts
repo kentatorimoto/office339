@@ -28,6 +28,7 @@ export type Project = {
     artists?: { name: string }[];
     programs?: { name: string; href?: string }[];
     credits?: { label: string; value: string }[];
+    textSections?: { label: string; items: string[] }[];
   };
   tags: string[];
   order: number;

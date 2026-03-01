@@ -216,6 +216,26 @@
         { "label": "Director", "value": "鳥本健太 Kenta Torimoto / 李力 Li Li" },
         { "label": "Venue", "value": "Shanghai World Financial Center" },
         { "label": "Organizer", "value": "Shanghai World Financial Center / 森ビル" }
+      ],
+      "textSections": [
+        {
+          "label": "Artists",
+          "items": [
+            "毕蓉蓉 Bi Rongrong", "布鲁诺巴贝 Bruno Barbey", "陈航峰 Chen Hangfeng x BUILD Lab.", "陈墙 Chen Qiang", "程然 Cheng Ran", "Delphine de Blic", "丁乙 Ding Yi", "双飞艺术中心 Double Fly Art Center", "边亦中 Ed Pien", "弗朗切斯科·克莱门特 Francesco Clemente", "Gabriel Lester", "Greenhouse Core", "詹姆斯·伯伦 James H. Bollen", "Jennifer Douzenel", "姜国哲 Jiang Guozhe", "蒋鹏奕 Jiang Pengyi", "蒋志 Jiang Zhi", "雷虹 Lei Hong", "梁彬彬 Liang Binbin", "刘非 Liu Fei", "刘唯艰 Liu Weijian", "劉真辰 Liu Zhenchen", "李消非 Li Xiaofei", "李文光 Li Wenguang", "李振华 Li Zhenhua", "卢佳炜 Lu Jiawei", "Luis Bezeta", "陆新建 Lu Xinjian", "马大哈 Ma Daha", "Marc Lafia with MABSOCIETY", "马克·斯特兰德 Mark Strand", "Michael Wolf", "Monika Lin", "木巾 Mu Jin", "南孝俊 Nam HyoJun", "政治纯形式办公室 Polit-Sheer-Form Office", "泼先生 Pulsasir", "曲艺 Qu Yi", "理查德·朗 Richard Long", "邵译农&慕辰 Shao Yinong & Mu Chen", "吴观麟 Tonny Ng", "王冬龄 Wang Dongling", "王青 Wang Qing", "王燮达 Wang Xieda", "魏立刚 Wei Ligang", "翁志娟 Weng ZhiJuan", "吴鼎 Wu Ding", "吴高钟 Wu Gaozhong", "小珂×子涵 Xiao Ke x Zi Han", "夏弢 Xia Tao", "玄卿 Xuan Qing", "徐震（没顶公司出品）Xu Zhen (MadeIn Company Produce)", "婴野赋 Ying Yefu", "岳路平 Yue Luping", "郑路 Zheng Lu", "张如怡 Zhang Ruyi"
+          ]
+        },
+        {
+          "label": "Curators",
+          "items": [
+            "許宇 Leo Xu", "黎宁春 Li Ningchun", "马修 Mathieu Borysevicz", "翁志娟 Weng ZhiJuan"
+          ]
+        },
+        {
+          "label": "Galleries",
+          "items": [
+            "艾可画廊 AIKE-DELLARCO", "艺术+上海画廊 Art+ Shanghai Gallery", "ART LABOR画廊 ART LABOR Gallery", "周围艺术画廊 AroundSpace Gallery", "比極影像 Beaugeste Photo Gallery", "东画廊 Don Gallery", "科恩画廊 James Cohan Gallery", "M97画廊 M97 Gallery", "OV画廊 OV Gallery", "艺术门 Pearl Lam Galleries", "沪申画廊 Shanghai Gallery of Art", "香格纳画廊 ShanghART Gallery", "Vanguard画廊 Vanguard Gallery"
+          ]
+        }
       ]
     },
     "artists": [],
