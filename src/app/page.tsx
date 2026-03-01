@@ -66,17 +66,13 @@ export default function Home() {
                   <h3 className="text-base md:text-lg tracking-wide font-light">
                     {project.title.ja}
                   </h3>
-                  <div className="mt-2 flex items-center gap-3">
-                    <span
-                      className={`text-[10px] tracking-wider px-2 py-0.5 rounded-full border ${
-                        project.status === "active"
-                          ? "border-black/30 text-gray-400"
-                          : "border-gray-200 text-gray-300"
-                      }`}
-                    >
-                      {getStatusLabel(project.status)}
-                    </span>
-                  </div>
+                  {project.status === "active" && (
+                    <div className="mt-2 flex items-center gap-3">
+                      <span className="text-[10px] tracking-wider px-2 py-0.5 rounded-full border border-black/30 text-gray-400">
+                        {getStatusLabel(project.status)}
+                      </span>
+                    </div>
+                  )}
                   <div className="mt-1 flex items-baseline gap-4 text-[10px] text-gray-300 tracking-wider">
                     {project.period && <span>{project.period}</span>}
                     {project.role.ja && <span>{project.role.ja}</span>}
@@ -133,17 +129,13 @@ export default function Home() {
                   <h3 className="text-base md:text-lg tracking-wide font-light">
                     {project.title.ja}
                   </h3>
-                  <div className="mt-2 flex items-center gap-3">
-                    <span
-                      className={`text-[10px] tracking-wider px-2 py-0.5 rounded-full border ${
-                        project.status === "active"
-                          ? "border-black/30 text-gray-400"
-                          : "border-gray-200 text-gray-300"
-                      }`}
-                    >
-                      {getStatusLabel(project.status)}
-                    </span>
-                  </div>
+                  {project.status === "active" && (
+                    <div className="mt-2 flex items-center gap-3">
+                      <span className="text-[10px] tracking-wider px-2 py-0.5 rounded-full border border-black/30 text-gray-400">
+                        {getStatusLabel(project.status)}
+                      </span>
+                    </div>
+                  )}
                   <div className="mt-1 flex items-baseline gap-4 text-[10px] text-gray-300 tracking-wider">
                     {project.period && <span>{project.period}</span>}
                     {project.role.ja && <span>{project.role.ja}</span>}
@@ -200,17 +192,13 @@ export default function Home() {
                   <h3 className="text-base md:text-lg tracking-wide font-light">
                     {project.title.ja}
                   </h3>
-                  <div className="mt-2 flex items-center gap-3">
-                    <span
-                      className={`text-[10px] tracking-wider px-2 py-0.5 rounded-full border ${
-                        project.status === "active"
-                          ? "border-black/30 text-gray-400"
-                          : "border-gray-200 text-gray-300"
-                      }`}
-                    >
-                      {getStatusLabel(project.status)}
-                    </span>
-                  </div>
+                  {project.status === "active" && (
+                    <div className="mt-2 flex items-center gap-3">
+                      <span className="text-[10px] tracking-wider px-2 py-0.5 rounded-full border border-black/30 text-gray-400">
+                        {getStatusLabel(project.status)}
+                      </span>
+                    </div>
+                  )}
                   <div className="mt-1 flex items-baseline gap-4 text-[10px] text-gray-300 tracking-wider">
                     {project.period && <span>{project.period}</span>}
                     {project.role.ja && <span>{project.role.ja}</span>}
