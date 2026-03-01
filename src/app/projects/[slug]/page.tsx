@@ -8,6 +8,7 @@ import {
   getStatusLabel,
 } from "@/lib/projects";
 import VideoSection from "@/components/VideoSection";
+import ExhibitionSection from "@/components/ExhibitionSection";
 
 import type { Metadata } from "next";
 
@@ -138,6 +139,11 @@ export default async function ProjectPage({ params }: Props) {
       {/* Film */}
       {project.videos && project.videos.length > 0 && (
         <VideoSection videos={project.videos} />
+      )}
+
+      {/* Exhibition (Concept / Artists / Credits) */}
+      {project.exhibition && (
+        <ExhibitionSection info={project.exhibition} />
       )}
 
       {/* Artists */}

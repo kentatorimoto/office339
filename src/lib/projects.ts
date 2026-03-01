@@ -23,6 +23,11 @@ export type Project = {
   artists: Artist[];
   tagline?: string;
   videos?: { url: string; title?: string }[];
+  exhibition?: {
+    concept?: string;
+    artists?: { name: string }[];
+    credits?: { label: string; value: string }[];
+  };
   tags: string[];
   order: number;
 };

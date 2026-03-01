@@ -137,18 +137,19 @@
       "ja": "ARTificial Garden",
       "en": "ARTificial Garden"
     },
-    "period": "",
-    "status": "archive",
+    "period": "2014",
+    "status": "works",
     "role": {
-      "ja": "",
-      "en": ""
+      "ja": "キュレーション",
+      "en": "Curation"
     },
     "description": {
-      "ja": "人工と自然の境界を問い直すグループ展。テクノロジーを用いた庭園的空間を構築し、デジタルとオーガニックの共生を提示した。",
-      "en": "A group exhibition questioning the boundary between artificial and natural, constructing a garden-like space using technology."
+      "ja": "上海環球金融中心の6周年を記念して開催したグループ展。絵画、彫刻、デジタルアート、空間インスタレーションの4組のアーティストの作品が、オフィスビルのエントランスを一つの庭園へと変容させた。人工物によって構成された作品群が、都市の中に潜む\"自然\"を浮かび上がらせる試み。",
+      "en": "A group exhibition held to celebrate the sixth anniversary of the Shanghai World Financial Center. Works by four groups of artists — spanning painting, sculpture, digital art, and spatial installation — transformed the office building's entrance into a single garden. An attempt to reveal the \"nature\" hidden within the city through works composed of artificial matter."
     },
-    "thumbnail": "/images/projects/artificial-garden/01.jpg",
+    "thumbnail": "/images/projects/artificial-garden/hero.webp",
     "images": [
+      "/images/projects/artificial-garden/hero.webp",
       "/images/projects/artificial-garden/01.jpg",
       "/images/projects/artificial-garden/02.jpg",
       "/images/projects/artificial-garden/03.jpg",
@@ -156,37 +157,27 @@
       "/images/projects/artificial-garden/05.jpg",
       "/images/projects/artificial-garden/06.jpg",
       "/images/projects/artificial-garden/07.jpg",
-      "/images/projects/artificial-garden/08.jpg",
-      "/images/projects/artificial-garden/09.jpg",
-      "/images/projects/artificial-garden/10.jpg",
-      "/images/projects/artificial-garden/11.jpg",
-      "/images/projects/artificial-garden/12.jpg",
-      "/images/projects/artificial-garden/13.jpg",
-      "/images/projects/artificial-garden/14.jpg",
-      "/images/projects/artificial-garden/15.jpg",
-      "/images/projects/artificial-garden/16.jpg",
-      "/images/projects/artificial-garden/17.jpg",
-      "/images/projects/artificial-garden/18.jpg",
-      "/images/projects/artificial-garden/19.jpg",
-      "/images/projects/artificial-garden/20.jpg",
-      "/images/projects/artificial-garden/21.jpg",
-      "/images/projects/artificial-garden/22.jpg",
-      "/images/projects/artificial-garden/23.jpg",
-      "/images/projects/artificial-garden/24.jpg",
-      "/images/projects/artificial-garden/25.jpg",
-      "/images/projects/artificial-garden/26.jpg",
-      "/images/projects/artificial-garden/27.jpg",
-      "/images/projects/artificial-garden/28.jpg",
-      "/images/projects/artificial-garden/29.jpg",
-      "/images/projects/artificial-garden/30.jpg",
-      "/images/projects/artificial-garden/31.jpg",
-      "/images/projects/artificial-garden/32.jpg",
-      "/images/projects/artificial-garden/33.jpg"
+      "/images/projects/artificial-garden/08.jpg"
     ],
     "externalUrl": "",
+    "exhibition": {
+      "concept": "\u201c不是艺术模仿自然，而是自然模仿艺术\u201d ——オスカー・ワイルド。\nこの展覧会は、アートを通じて都市の中に潜む\u201c自然の庭園\u201dを発掘する試みである。",
+      "artists": [
+        { "name": "陸新建 Lu Xinjian" },
+        { "name": "李在孝 Lee Jaehyo" },
+        { "name": "六島 island6" },
+        { "name": "PRISM DESIGN + Office339" }
+      ],
+      "credits": [
+        { "label": "Curator", "value": "Kenta Torimoto" },
+        { "label": "Venue", "value": "Shanghai World Financial Center" },
+        { "label": "Organizer", "value": "Shanghai World Financial Center" },
+        { "label": "Support", "value": "ART LABOR GALLERY, island6, M ART CENTER" }
+      ]
+    },
     "artists": [],
     "tags": ["exhibition", "technology", "nature"],
-    "order": 6
+    "order": 5
   },
   {
     "slug": "filter-the-public",
