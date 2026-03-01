@@ -73,9 +73,8 @@ export default function Home() {
                       </span>
                     </div>
                   )}
-                  <div className="mt-1 flex items-baseline gap-4 text-[10px] text-gray-300 tracking-wider">
+                  <div className="mt-1 text-[10px] text-gray-300 tracking-wider">
                     {project.period && <span>{project.period}</span>}
-                    {project.role.ja && <span>{project.role.ja}</span>}
                   </div>
                 </div>
               </Link>
@@ -136,9 +135,8 @@ export default function Home() {
                       </span>
                     </div>
                   )}
-                  <div className="mt-1 flex items-baseline gap-4 text-[10px] text-gray-300 tracking-wider">
+                  <div className="mt-1 text-[10px] text-gray-300 tracking-wider">
                     {project.period && <span>{project.period}</span>}
-                    {project.role.ja && <span>{project.role.ja}</span>}
                   </div>
                 </div>
               </Link>
@@ -199,9 +197,8 @@ export default function Home() {
                       </span>
                     </div>
                   )}
-                  <div className="mt-1 flex items-baseline gap-4 text-[10px] text-gray-300 tracking-wider">
+                  <div className="mt-1 text-[10px] text-gray-300 tracking-wider">
                     {project.period && <span>{project.period}</span>}
-                    {project.role.ja && <span>{project.role.ja}</span>}
                   </div>
                 </div>
               </Link>
