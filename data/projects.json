@@ -358,8 +358,8 @@
       "en": "Planning & Development"
     },
     "description": {
-      "ja": "北海道・新得町を対象に、地域の意思決定と変化のプロセスを可視化するデジタルプラットフォーム。行政資料、議会議論、地理情報、地域ニュースなど、通常は分断されている情報を重ね合わせ、地域がどのように形づくられてきたかを読み解くための公共的アーカイブとして設計。\n\n地域を「完成された場所」ではなく「生成され続けるプロセス」として捉え、議論・判断・地形・エネルギーの流れを地図と時間軸の上に可視化する。流域的視点に基づき、行政区画ではなく「流れの交差点」として地域を理解する試み。",
-      "en": "A digital platform that visualizes the decision-making processes and ongoing transformation of Shintoku, Hokkaido. Designed as a public archive that overlays normally fragmented information — administrative documents, council discussions, geographic data, and local news — to make legible how a region has been shaped over time.\n\nThe project treats a region not as a fixed place but as a continuously generated process, visualizing the flows of discussion, decisions, topography, and energy across maps and timelines. Based on a watershed perspective, it seeks to understand a region as an intersection of flows rather than an administrative boundary."
+      "ja": "北海道・新得町の議会記録をアーカイブし、町の「決まり方」を可視化するプラットフォーム。\n\nニュースは出来事を伝える。SHINTOKU ATLASは、その背景にある議論の構造を読む。\n\n誰がどんな問いを立て、何が決まり、何が保留されたか。断片として散らばっていた記録に時間軸と文脈を与えることで、町がどのように形づくられてきたかを静かに示す。\n\n意見を示すのではなく、構造を示すこと。SHINTOKU ATLASは、町を読むための観測装置である。",
+      "en": "A platform that archives the council records of Shintoku, Hokkaido, making visible how a town makes its decisions.\n\nNews reports events. SHINTOKU ATLAS reads the structure of deliberation beneath them.\n\nWho raised what questions. What was decided. What remains unresolved. By placing scattered records onto a shared timeline and context, the project quietly reveals how a place has been shaped over time.\n\nNot to express opinions, but to make structure legible. SHINTOKU ATLAS is an instrument for reading a town."
     },
     "thumbnail": "/images/projects/shintoku-atlas/hero.jpg",
     "images": [
