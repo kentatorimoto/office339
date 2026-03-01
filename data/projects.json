@@ -231,9 +231,13 @@
     },
     "thumbnail": "/images/projects/swfc-led-urban-sculpture/hero.webp",
     "images": [
-      "/images/projects/swfc-led-urban-sculpture/hero.webp"
+      "/images/projects/swfc-led-urban-sculpture/hero.webp",
+      "/images/projects/swfc-led-urban-sculpture/01.png"
     ],
     "externalUrl": "",
+    "videos": [
+      { "url": "https://www.youtube.com/watch?v=3tCFLHpkizE", "title": "SWFC LED Urban Sculpture Project" }
+    ],
     "exhibition": {
       "artists": [
         { "name": "丁乙 Ding Yi" },
