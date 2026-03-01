@@ -53,25 +53,26 @@ export default function Home() {
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500" />
               </div>
               <div className="mt-4 md:mt-6">
-                <div className="flex items-baseline gap-4">
-                  <h3 className="text-base md:text-lg tracking-wide font-light">
-                    {project.title.ja}
-                  </h3>
+                <h3 className="text-base md:text-lg tracking-wide font-light">
+                  {project.title.ja}
+                </h3>
+                <div className="mt-2 flex items-center gap-3">
+                  <span className="text-xs tracking-wider text-gray-500">
+                    {project.practice}
+                  </span>
                   <span
-                    className={`text-[10px] tracking-wider px-2 py-0.5 rounded-full border shrink-0 ${
+                    className={`text-[10px] tracking-wider px-2 py-0.5 rounded-full border ${
                       project.status === "active"
-                        ? "border-black text-black"
-                        : "border-gray-300 text-gray-400"
+                        ? "border-black/30 text-gray-400"
+                        : "border-gray-200 text-gray-300"
                     }`}
                   >
                     {getStatusLabel(project.status)}
                   </span>
                 </div>
-                <div className="mt-1 flex items-baseline gap-4 text-xs text-gray-400">
+                <div className="mt-1 flex items-baseline gap-4 text-[10px] text-gray-300 tracking-wider">
                   {project.period && <span>{project.period}</span>}
-                  {project.role.ja && (
-                    <span className="tracking-wider">{project.role.ja}</span>
-                  )}
+                  {project.role.ja && <span>{project.role.ja}</span>}
                 </div>
               </div>
             </Link>

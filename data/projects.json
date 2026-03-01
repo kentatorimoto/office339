@@ -7,6 +7,7 @@
     },
     "period": "2024 -",
     "status": "active",
+    "practice": "Site",
     "role": {
       "ja": "ディレクション",
       "en": "Direction"
@@ -32,6 +33,39 @@
     "order": 1
   },
   {
+    "slug": "project-atami",
+    "title": {
+      "ja": "PROJECT ATAMI / ATAMI ART GRANT",
+      "en": "PROJECT ATAMI / ATAMI ART GRANT"
+    },
+    "period": "2021 -",
+    "status": "active",
+    "practice": "Site",
+    "role": {
+      "ja": "ディレクション",
+      "en": "Direction"
+    },
+    "description": {
+      "ja": "静岡県熱海市を舞台に、アートを通じて都市と文化の新しい関係性を創出するプロジェクト。滞在制作プログラム「ATAMI ART RESIDENCE」と街全体を会場とするアートイベント「ATAMI ART GRANT」を軸に、2021年より始動。\n\noffice339はプロジェクト立ち上げ期から参画し、プログラムディレクター、東アジア文化プログラムディレクター、Metaプログラムディレクターとして企画設計・地域連携・国際交流のディレクションを担う。",
+      "en": "A project that creates new relationships between city and culture through art, set in Atami, Shizuoka. Centered on the artist-in-residence program \"ATAMI ART RESIDENCE\" and the citywide art event \"ATAMI ART GRANT,\" it launched in 2021.\n\noffice339 has been involved since inception, directing program design, community engagement, and international exchange as Program Director, East Asia Cultural Program Director, and Meta Program Director."
+    },
+    "thumbnail": "/images/projects/project-atami/hero.jpeg",
+    "images": [
+      "/images/projects/project-atami/hero.jpeg",
+      "/images/projects/project-atami/01.jpeg",
+      "/images/projects/project-atami/02.jpeg",
+      "/images/projects/project-atami/03.jpeg",
+      "/images/projects/project-atami/04.jpeg"
+    ],
+    "externalUrl": "https://projectatami.com/",
+    "videos": [
+      { "url": "https://www.youtube.com/watch?v=qUjBtFu6EpE", "title": "ATAMI ART GRANT 2021: DOCUMENT" }
+    ],
+    "artists": [],
+    "tags": ["art", "east-asia", "curation", "residency"],
+    "order": 2
+  },
+  {
     "slug": "ganke-fes",
     "title": {
       "ja": "GANKE FES",
@@ -39,6 +73,7 @@
     },
     "period": "2014 -",
     "status": "active",
+    "practice": "Site",
     "role": {
       "ja": "ディレクション",
       "en": "Direction"
@@ -67,38 +102,6 @@
     "order": 3
   },
   {
-    "slug": "project-atami",
-    "title": {
-      "ja": "PROJECT ATAMI / ATAMI ART GRANT",
-      "en": "PROJECT ATAMI / ATAMI ART GRANT"
-    },
-    "period": "2021 -",
-    "status": "active",
-    "role": {
-      "ja": "ディレクション",
-      "en": "Direction"
-    },
-    "description": {
-      "ja": "静岡県熱海市を舞台に、アートを通じて都市と文化の新しい関係性を創出するプロジェクト。滞在制作プログラム「ATAMI ART RESIDENCE」と街全体を会場とするアートイベント「ATAMI ART GRANT」を軸に、2021年より始動。\n\noffice339はプロジェクト立ち上げ期から参画し、プログラムディレクター、東アジア文化プログラムディレクター、Metaプログラムディレクターとして企画設計・地域連携・国際交流のディレクションを担う。",
-      "en": "A project that creates new relationships between city and culture through art, set in Atami, Shizuoka. Centered on the artist-in-residence program \"ATAMI ART RESIDENCE\" and the citywide art event \"ATAMI ART GRANT,\" it launched in 2021.\n\noffice339 has been involved since inception, directing program design, community engagement, and international exchange as Program Director, East Asia Cultural Program Director, and Meta Program Director."
-    },
-    "thumbnail": "/images/projects/project-atami/hero.jpeg",
-    "images": [
-      "/images/projects/project-atami/hero.jpeg",
-      "/images/projects/project-atami/01.jpeg",
-      "/images/projects/project-atami/02.jpeg",
-      "/images/projects/project-atami/03.jpeg",
-      "/images/projects/project-atami/04.jpeg"
-    ],
-    "externalUrl": "https://projectatami.com/",
-    "videos": [
-      { "url": "https://www.youtube.com/watch?v=qUjBtFu6EpE", "title": "ATAMI ART GRANT 2021: DOCUMENT" }
-    ],
-    "artists": [],
-    "tags": ["art", "east-asia", "curation", "residency"],
-    "order": 2
-  },
-  {
     "slug": "shanghai-lights",
     "title": {
       "ja": "Shanghai Lights by Human Moving",
@@ -106,6 +109,7 @@
     },
     "period": "2016",
     "status": "works",
+    "practice": "Urban",
     "role": {
       "ja": "プロデュース",
       "en": "Production"
@@ -132,54 +136,6 @@
     "order": 4
   },
   {
-    "slug": "artificial-garden",
-    "title": {
-      "ja": "ARTificial Garden",
-      "en": "ARTificial Garden"
-    },
-    "period": "2014",
-    "status": "works",
-    "role": {
-      "ja": "キュレーション",
-      "en": "Curation"
-    },
-    "description": {
-      "ja": "上海環球金融中心の6周年を記念して開催したグループ展。絵画、彫刻、デジタルアート、空間インスタレーションの4組のアーティストの作品が、オフィスビルのエントランスを一つの庭園へと変容させた。\n\n人工物によって構成された作品群が、都市の中に潜む\"自然\"を浮かび上がらせる試み。",
-      "en": "A group exhibition held to celebrate the sixth anniversary of the Shanghai World Financial Center. Works by four groups of artists — spanning painting, sculpture, digital art, and spatial installation — transformed the office building's entrance into a single garden.\n\nAn attempt to reveal the \"nature\" hidden within the city through works composed of artificial matter."
-    },
-    "thumbnail": "/images/projects/artificial-garden/hero.webp",
-    "images": [
-      "/images/projects/artificial-garden/hero.webp",
-      "/images/projects/artificial-garden/01.jpg",
-      "/images/projects/artificial-garden/02.jpg",
-      "/images/projects/artificial-garden/03.jpg",
-      "/images/projects/artificial-garden/04.jpg",
-      "/images/projects/artificial-garden/05.jpg",
-      "/images/projects/artificial-garden/06.jpg",
-      "/images/projects/artificial-garden/07.jpg",
-      "/images/projects/artificial-garden/08.jpg"
-    ],
-    "externalUrl": "",
-    "exhibition": {
-      "concept": "\u201c不是艺术模仿自然，而是自然模仿艺术\u201d ——オスカー・ワイルド。\nこの展覧会は、アートを通じて都市の中に潜む\u201c自然の庭園\u201dを発掘する試みである。",
-      "artists": [
-        { "name": "陸新建 Lu Xinjian" },
-        { "name": "李在孝 Lee Jaehyo" },
-        { "name": "六島 island6" },
-        { "name": "PRISM DESIGN + Office339" }
-      ],
-      "credits": [
-        { "label": "Curator", "value": "Kenta Torimoto" },
-        { "label": "Venue", "value": "Shanghai World Financial Center" },
-        { "label": "Organizer", "value": "Shanghai World Financial Center" },
-        { "label": "Support", "value": "ART LABOR GALLERY, island6, M ART CENTER" }
-      ]
-    },
-    "artists": [],
-    "tags": ["exhibition", "technology", "nature"],
-    "order": 7
-  },
-  {
     "slug": "filter-the-public",
     "title": {
       "ja": "FILTER THE PUBLIC",
@@ -187,6 +143,7 @@
     },
     "period": "2013",
     "status": "works",
+    "practice": "Urban",
     "role": {
       "ja": "ディレクション",
       "en": "Direction"
@@ -253,6 +210,7 @@
     },
     "period": "2013",
     "status": "works",
+    "practice": "Urban",
     "role": {
       "ja": "キュレーション",
       "en": "Curation"
@@ -286,6 +244,133 @@
     "order": 6
   },
   {
+    "slug": "artificial-garden",
+    "title": {
+      "ja": "ARTificial Garden",
+      "en": "ARTificial Garden"
+    },
+    "period": "2014",
+    "status": "works",
+    "practice": "Urban",
+    "role": {
+      "ja": "キュレーション",
+      "en": "Curation"
+    },
+    "description": {
+      "ja": "上海環球金融中心の6周年を記念して開催したグループ展。絵画、彫刻、デジタルアート、空間インスタレーションの4組のアーティストの作品が、オフィスビルのエントランスを一つの庭園へと変容させた。\n\n人工物によって構成された作品群が、都市の中に潜む\"自然\"を浮かび上がらせる試み。",
+      "en": "A group exhibition held to celebrate the sixth anniversary of the Shanghai World Financial Center. Works by four groups of artists — spanning painting, sculpture, digital art, and spatial installation — transformed the office building's entrance into a single garden.\n\nAn attempt to reveal the \"nature\" hidden within the city through works composed of artificial matter."
+    },
+    "thumbnail": "/images/projects/artificial-garden/hero.webp",
+    "images": [
+      "/images/projects/artificial-garden/hero.webp",
+      "/images/projects/artificial-garden/01.jpg",
+      "/images/projects/artificial-garden/02.jpg",
+      "/images/projects/artificial-garden/03.jpg",
+      "/images/projects/artificial-garden/04.jpg",
+      "/images/projects/artificial-garden/05.jpg",
+      "/images/projects/artificial-garden/06.jpg",
+      "/images/projects/artificial-garden/07.jpg",
+      "/images/projects/artificial-garden/08.jpg"
+    ],
+    "externalUrl": "",
+    "exhibition": {
+      "concept": "\u201c不是艺术模仿自然，而是自然模仿艺术\u201d ——オスカー・ワイルド。\nこの展覧会は、アートを通じて都市の中に潜む\u201c自然の庭園\u201dを発掘する試みである。",
+      "artists": [
+        { "name": "陸新建 Lu Xinjian" },
+        { "name": "李在孝 Lee Jaehyo" },
+        { "name": "六島 island6" },
+        { "name": "PRISM DESIGN + Office339" }
+      ],
+      "credits": [
+        { "label": "Curator", "value": "Kenta Torimoto" },
+        { "label": "Venue", "value": "Shanghai World Financial Center" },
+        { "label": "Organizer", "value": "Shanghai World Financial Center" },
+        { "label": "Support", "value": "ART LABOR GALLERY, island6, M ART CENTER" }
+      ]
+    },
+    "artists": [],
+    "tags": ["exhibition", "technology", "nature"],
+    "order": 7
+  },
+  {
+    "slug": "irolog",
+    "title": {
+      "ja": "iroLog — your daily color diary",
+      "en": "iroLog — your daily color diary"
+    },
+    "period": "2025 -",
+    "status": "active",
+    "practice": "Interface",
+    "role": {
+      "ja": "企画・開発",
+      "en": "Planning & Development"
+    },
+    "description": {
+      "ja": "1日1枚の写真から5色のカラーパレットを抽出し、日々を色で記録するアプリ。コンセプチュアル・アーティスト河原温が日付だけを描き続けた「Today」シリーズに着想を得た、デイリーカラーダイアリー。\n\n大事なのは写真の内容ではなく、「毎日、色を残す」という行為の継続そのもの。カレンダーに並んだパレットは、季節の移り変わり、生活のリズム、気分の変化を、言葉ではなく色のグラデーションとして浮かび上がらせる。\n\n1ヶ月分のパレットが並んだとき、それはもう小さなアート作品になっている。",
+      "en": "An app that extracts a five-color palette from one photo each day, recording daily life through color. A daily color diary inspired by conceptual artist On Kawara's \"Today\" series, in which he painted nothing but the date, every day.\n\nWhat matters is not the content of the photo, but the act of capturing color each day. Palettes lined up on a calendar reveal the shift of seasons, the rhythm of life, and changes in mood — not through words, but through gradations of color.\n\nWhen a month of palettes comes together, it becomes a quiet work of art."
+    },
+    "thumbnail": "/images/projects/irolog/hero.jpg",
+    "images": [
+      "/images/projects/irolog/hero.jpg"
+    ],
+    "externalUrl": "",
+    "artists": [],
+    "tags": ["app", "interface", "color"],
+    "order": 8
+  },
+  {
+    "slug": "ryuiki",
+    "title": {
+      "ja": "流域 Ryuiki",
+      "en": "流域 Ryuiki"
+    },
+    "period": "2025 -",
+    "status": "active",
+    "practice": "Interface",
+    "role": {
+      "ja": "企画・開発",
+      "en": "Planning & Development"
+    },
+    "description": {
+      "ja": "いま自分が立っている場所を、流域という視点から感じ直すiOSアプリ。地図を「場所を探すツール」ではなく、地球のエネルギー循環を知覚するインターフェースとして再定義する。\n\n岸由二の流域思考と福岡伸一の動的平衡を思想的基盤に、足元の地形、水の流れ、山脈が形づくる境界を可視化。アプリを開くと現在地の地形が現れ、河川と流域の輪郭が浮かび上がり、自分がどの流域に属しているかを直感的に理解できる。北海道13一級水系、約26,000本の河川データに対応。\n\n壮大な思想を、日常の小さな行為に接続する装置。",
+      "en": "An iOS app that invites you to re-sense the place where you stand through the lens of watersheds. It redefines the map not as a tool for finding locations, but as an interface for perceiving the energy cycles of the earth.\n\nBuilt on the philosophical foundations of Yuji Kishi's watershed thinking and Shin-ichi Fukuoka's dynamic equilibrium, the app visualizes the terrain beneath your feet, the flow of water, and the boundaries shaped by mountain ranges. Upon opening, the local terrain appears, rivers and watershed contours emerge, and you intuitively grasp which watershed you belong to. Covering all 13 primary river systems of Hokkaido with approximately 26,000 rivers.\n\nA device that connects grand ideas to small, everyday acts."
+    },
+    "thumbnail": "/images/projects/ryuiki/hero.jpg",
+    "images": [
+      "/images/projects/ryuiki/hero.jpg"
+    ],
+    "externalUrl": "",
+    "artists": [],
+    "tags": ["app", "interface", "watershed", "hokkaido"],
+    "order": 9
+  },
+  {
+    "slug": "shintoku-atlas",
+    "title": {
+      "ja": "SHINTOKU ATLAS",
+      "en": "SHINTOKU ATLAS"
+    },
+    "period": "2025 -",
+    "status": "active",
+    "practice": "Interface",
+    "role": {
+      "ja": "企画・開発",
+      "en": "Planning & Development"
+    },
+    "description": {
+      "ja": "北海道・新得町を対象に、地域の意思決定と変化のプロセスを可視化するデジタルプラットフォーム。行政資料、議会議論、地理情報、地域ニュースなど、通常は分断されている情報を重ね合わせ、地域がどのように形づくられてきたかを読み解くための公共的アーカイブとして設計。\n\n地域を「完成された場所」ではなく「生成され続けるプロセス」として捉え、議論・判断・地形・エネルギーの流れを地図と時間軸の上に可視化する。流域的視点に基づき、行政区画ではなく「流れの交差点」として地域を理解する試み。",
+      "en": "A digital platform that visualizes the decision-making processes and ongoing transformation of Shintoku, Hokkaido. Designed as a public archive that overlays normally fragmented information — administrative documents, council discussions, geographic data, and local news — to make legible how a region has been shaped over time.\n\nThe project treats a region not as a fixed place but as a continuously generated process, visualizing the flows of discussion, decisions, topography, and energy across maps and timelines. Based on a watershed perspective, it seeks to understand a region as an intersection of flows rather than an administrative boundary."
+    },
+    "thumbnail": "/images/projects/shintoku-atlas/hero.jpg",
+    "images": [
+      "/images/projects/shintoku-atlas/hero.jpg"
+    ],
+    "externalUrl": "https://shintoku-platform.vercel.app/",
+    "artists": [],
+    "tags": ["platform", "interface", "hokkaido", "archive"],
+    "order": 10
+  },
+  {
     "slug": "moere-summer-festival",
     "title": {
       "ja": "モエレ星の伝説",
@@ -293,6 +378,7 @@
     },
     "period": "2013",
     "status": "works",
+    "practice": "Site",
     "role": {
       "ja": "キュレーション",
       "en": "Curation"
@@ -337,7 +423,7 @@
     },
     "artists": [],
     "tags": ["festival", "music", "art", "sapporo", "curation"],
-    "order": 8
+    "order": 11
   },
   {
     "slug": "moere-summer-festival-2013",
@@ -347,6 +433,7 @@
     },
     "period": "2013",
     "status": "archive",
+    "practice": "Site",
     "role": {
       "ja": "",
       "en": ""
@@ -413,7 +500,7 @@
     "externalUrl": "",
     "artists": [],
     "tags": ["festival", "music", "art", "sapporo"],
-    "order": 8,
+    "order": 12,
     "hidden": true
   }
 ]

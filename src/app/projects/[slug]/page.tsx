@@ -62,7 +62,8 @@ export default async function ProjectPage({ params }: Props) {
         {project.title.en !== project.title.ja && (
           <p className="mt-2 text-sm text-gray-400">{project.title.en}</p>
         )}
-        <div className="mt-6 flex flex-wrap gap-x-8 gap-y-2 text-xs text-gray-400 tracking-wider">
+        <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-gray-400 tracking-wider">
+          <span className="text-gray-500">{project.practice}</span>
           {project.period && <span>{project.period}</span>}
           {project.role.ja && <span>{project.role.ja}</span>}
           <span

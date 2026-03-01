@@ -15,6 +15,7 @@ export type Project = {
   title: LocalizedText;
   period: string;
   status: "active" | "works" | "archive";
+  practice: "Site" | "Urban" | "Interface";
   role: LocalizedText;
   description: LocalizedText;
   thumbnail: string;
@@ -37,12 +38,7 @@ export type Project = {
 
 export function getAllProjects(): Project[] {
   const projects = (projectsData as Project[]).filter((p) => !p.hidden);
-  // active を上に、あとは order 順
-  return projects.sort((a, b) => {
-    if (a.status === "active" && b.status !== "active") return -1;
-    if (a.status !== "active" && b.status === "active") return 1;
-    return a.order - b.order;
-  });
+  return projects.sort((a, b) => a.order - b.order);
 }
 
 export function getProjectBySlug(slug: string): Project | undefined {
