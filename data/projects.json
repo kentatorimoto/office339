@@ -30,7 +30,7 @@
     ],
     "artists": [],
     "tags": ["performance", "hokkaido", "ainu", "children"],
-    "order": 1
+    "order": 4
   },
   {
     "slug": "project-atami",
@@ -63,7 +63,7 @@
     ],
     "artists": [],
     "tags": ["art", "east-asia", "curation", "residency"],
-    "order": 2
+    "order": 5
   },
   {
     "slug": "ganke-fes",
@@ -99,7 +99,7 @@
     ],
     "artists": [],
     "tags": ["music", "art", "hokkaido", "outdoor"],
-    "order": 3
+    "order": 7
   },
   {
     "slug": "shanghai-lights",
@@ -133,7 +133,7 @@
     ],
     "artists": [],
     "tags": ["installation", "shanghai", "light"],
-    "order": 4
+    "order": 6
   },
   {
     "slug": "filter-the-public",
@@ -200,7 +200,7 @@
     },
     "artists": [],
     "tags": ["exhibition", "media-art", "public-space"],
-    "order": 5
+    "order": 9
   },
   {
     "slug": "swfc-led-urban-sculpture",
@@ -241,7 +241,7 @@
     },
     "artists": [],
     "tags": ["installation", "shanghai", "light", "curation"],
-    "order": 6
+    "order": 10
   },
   {
     "slug": "artificial-garden",
@@ -290,7 +290,7 @@
     },
     "artists": [],
     "tags": ["exhibition", "technology", "nature"],
-    "order": 7
+    "order": 8
   },
   {
     "slug": "irolog",
@@ -316,7 +316,7 @@
     "externalUrl": "",
     "artists": [],
     "tags": ["app", "interface", "color"],
-    "order": 8
+    "order": 1
   },
   {
     "slug": "ryuiki",
@@ -342,7 +342,7 @@
     "externalUrl": "",
     "artists": [],
     "tags": ["app", "interface", "watershed", "hokkaido"],
-    "order": 9
+    "order": 2
   },
   {
     "slug": "shintoku-atlas",
@@ -368,7 +368,7 @@
     "externalUrl": "https://shintoku-platform.vercel.app/",
     "artists": [],
     "tags": ["platform", "interface", "hokkaido", "archive"],
-    "order": 10
+    "order": 3
   },
   {
     "slug": "moere-summer-festival",
