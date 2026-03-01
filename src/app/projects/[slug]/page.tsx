@@ -97,13 +97,21 @@ export default async function ProjectPage({ params }: Props) {
           </h2>
         </div>
         <div className="md:col-span-8 space-y-6">
-          <p className="text-base md:text-lg leading-relaxed font-light">
-            {project.description.ja}
-          </p>
+          <div className="space-y-4">
+            {project.description.ja.split("\n\n").map((p, i) => (
+              <p key={i} className="text-base md:text-lg leading-relaxed font-light">
+                {p}
+              </p>
+            ))}
+          </div>
           {project.description.en && (
-            <p className="text-sm leading-relaxed text-gray-400">
-              {project.description.en}
-            </p>
+            <div className="space-y-3">
+              {project.description.en.split("\n\n").map((p, i) => (
+                <p key={i} className="text-sm leading-relaxed text-gray-400">
+                  {p}
+                </p>
+              ))}
+            </div>
           )}
         </div>
       </div>
