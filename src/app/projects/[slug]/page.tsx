@@ -62,8 +62,8 @@ export default async function ProjectPage({ params }: Props) {
         {project.title.en !== project.title.ja && (
           <p className="mt-2 text-sm text-gray-400">{project.title.en}</p>
         )}
-        <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-gray-400 tracking-wider">
-          <span className="text-gray-500">{project.practice}</span>
+        <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-gray-600 tracking-wider">
+          <span className="text-gray-700">{project.practice}</span>
           {project.period && <span>{project.period}</span>}
           {project.role.ja && <span>{project.role.ja}</span>}
           {project.status === "active" && (
@@ -178,32 +178,32 @@ export default async function ProjectPage({ params }: Props) {
       <div className="border-t border-gray-200 py-12 md:py-16 grid grid-cols-2 md:grid-cols-4 gap-8">
         {project.period && (
           <div>
-            <p className="text-xs text-gray-400 tracking-wider mb-1">Period</p>
-            <p className="text-sm font-light">{project.period}</p>
+            <p className="text-sm text-gray-500 tracking-wider mb-1">Period</p>
+            <p className="text-base font-light text-gray-700">{project.period}</p>
           </div>
         )}
         <div>
-          <p className="text-xs text-gray-400 tracking-wider mb-1">Status</p>
-          <p className="text-sm font-light">
+          <p className="text-sm text-gray-500 tracking-wider mb-1">Status</p>
+          <p className="text-base font-light text-gray-700">
             {getStatusLabel(project.status)}
           </p>
         </div>
         {project.role.ja && (
           <div>
-            <p className="text-xs text-gray-400 tracking-wider mb-1">Role</p>
-            <p className="text-sm font-light">{project.role.ja}</p>
+            <p className="text-sm text-gray-500 tracking-wider mb-1">Role</p>
+            <p className="text-base font-light text-gray-700">{project.role.ja}</p>
           </div>
         )}
         {project.externalUrl && (
           <div>
-            <p className="text-xs text-gray-400 tracking-wider mb-1">
+            <p className="text-sm text-gray-500 tracking-wider mb-1">
               Website
             </p>
             <a
               href={project.externalUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-sm font-light underline underline-offset-4 hover:text-gray-600 transition-colors"
+              className="text-base font-light text-gray-700 underline underline-offset-4 hover:text-gray-500 transition-colors"
             >
               Visit site &rarr;
             </a>
