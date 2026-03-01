@@ -64,7 +64,7 @@ export default function ExhibitionSection({ info }: { info: ExhibitionInfo }) {
             <dl className="space-y-3">
               {info.credits.map((credit, index) => (
                 <div key={index} className="flex items-baseline gap-4">
-                  <dt className="text-xs text-gray-400 tracking-wider shrink-0">
+                  <dt className="text-xs text-gray-400 tracking-wider shrink-0 w-24">
                     {credit.label}
                   </dt>
                   <dd className="text-sm font-light">{credit.value}</dd>
