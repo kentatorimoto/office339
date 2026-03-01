@@ -30,11 +30,12 @@ export type Project = {
   };
   tags: string[];
   order: number;
+  hidden?: boolean;
 };
 
 export function getAllProjects(): Project[] {
-  const projects = projectsData as Project[];
-  // ongoing を上に、あとは order 順
+  const projects = (projectsData as Project[]).filter((p) => !p.hidden);
+  // active を上に、あとは order 順
   return projects.sort((a, b) => {
     if (a.status === "active" && b.status !== "active") return -1;
     if (a.status !== "active" && b.status === "active") return 1;

@@ -211,7 +211,8 @@
     "externalUrl": "",
     "artists": [],
     "tags": ["exhibition", "media-art", "public-space"],
-    "order": 7
+    "order": 7,
+    "hidden": true
   },
   {
     "slug": "moere-summer-festival-2013",
@@ -287,6 +288,7 @@
     "externalUrl": "",
     "artists": [],
     "tags": ["festival", "music", "art", "sapporo"],
-    "order": 8
+    "order": 8,
+    "hidden": true
   }
 ]
