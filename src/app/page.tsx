@@ -30,7 +30,7 @@ export default function Home() {
             Reading landscapes and activating the latent potential of place.
           </p>
           <p className="mt-1 text-sm font-light text-gray-500">
-            地形や自然の文脈を読み解き、場所に眠る可能性を立ち上げる実践。
+            土地や風景を見つめ直し、<br />場所に眠る可能性をひらく実践。
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 md:gap-y-24">
@@ -89,10 +89,10 @@ export default function Home() {
             URBAN Practice
           </h2>
           <p className="mt-3 text-base font-light text-gray-600">
-            Transforming urban systems and architecture into media for spatial experience.
+            Treating the city itself as a medium to redesign spatial experience.
           </p>
           <p className="mt-1 text-sm font-light text-gray-500">
-            都市環境や建築をメディアとして扱い、空間体験を再構成する実践。
+            都市をひとつのメディアとして捉え直し、<br />空間の体験を編み直す実践。
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 md:gap-y-24">
@@ -154,7 +154,7 @@ export default function Home() {
             Designing devices and perspectives that renew how we perceive the world.
           </p>
           <p className="mt-1 text-sm font-light text-gray-500">
-            世界の認識や関係性を更新する視点と装置を設計する実践。
+            世界の見え方や関係性を見つめ直すための、<br />視点や装置をかたちにする実践。
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 md:gap-y-24">
