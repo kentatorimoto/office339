@@ -16,7 +16,7 @@ export default function Home() {
           アートを、実践として
         </p>
         <p className="mt-8 text-xs md:text-sm tracking-[0.3em] text-gray-400">
-          SHANGHAI - TOKACHI - TOKYO
+          SHANGHAI - TOKACHI
         </p>
       </section>
 
