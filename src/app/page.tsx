@@ -23,13 +23,13 @@ export default function Home() {
       {/* SITE Practice */}
       <section className="px-6 md:px-12 max-w-7xl mx-auto pb-24 md:pb-32">
         <div className="mb-10 md:mb-14">
-          <h2 className="text-xs tracking-widest text-gray-400 uppercase">
+          <h2 className="text-sm tracking-widest text-gray-700 uppercase">
             SITE Practice
           </h2>
-          <p className="mt-3 text-sm font-light text-gray-500">
+          <p className="mt-3 text-base font-light text-gray-600">
             Reading landscapes and activating the latent potential of place.
           </p>
-          <p className="mt-1 text-xs font-light text-gray-400">
+          <p className="mt-1 text-sm font-light text-gray-500">
             地形や自然の文脈を読み解き、場所に眠る可能性を立ち上げる実践。
           </p>
         </div>
@@ -90,13 +90,13 @@ export default function Home() {
       {/* URBAN Practice */}
       <section className="px-6 md:px-12 max-w-7xl mx-auto pb-24 md:pb-32">
         <div className="mb-10 md:mb-14">
-          <h2 className="text-xs tracking-widest text-gray-400 uppercase">
+          <h2 className="text-sm tracking-widest text-gray-700 uppercase">
             URBAN Practice
           </h2>
-          <p className="mt-3 text-sm font-light text-gray-500">
+          <p className="mt-3 text-base font-light text-gray-600">
             Transforming urban systems and architecture into media for spatial experience.
           </p>
-          <p className="mt-1 text-xs font-light text-gray-400">
+          <p className="mt-1 text-sm font-light text-gray-500">
             都市環境や建築をメディアとして扱い、空間体験を再構成する実践。
           </p>
         </div>
@@ -157,13 +157,13 @@ export default function Home() {
       {/* INTERFACE Practice */}
       <section className="px-6 md:px-12 max-w-7xl mx-auto pb-20">
         <div className="mb-10 md:mb-14">
-          <h2 className="text-xs tracking-widest text-gray-400 uppercase">
+          <h2 className="text-sm tracking-widest text-gray-700 uppercase">
             INTERFACE Practice
           </h2>
-          <p className="mt-3 text-sm font-light text-gray-500">
+          <p className="mt-3 text-base font-light text-gray-600">
             Designing devices and perspectives that renew how we perceive the world.
           </p>
-          <p className="mt-1 text-xs font-light text-gray-400">
+          <p className="mt-1 text-sm font-light text-gray-500">
             世界の認識や関係性を更新する視点と装置を設計する実践。
           </p>
         </div>
