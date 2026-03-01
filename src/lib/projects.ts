@@ -21,6 +21,7 @@ export type Project = {
   thumbnail: string;
   images: string[];
   externalUrl: string;
+  externalUrlNote?: string;
   artists: Artist[];
   tagline?: string;
   videos?: { url: string; title?: string }[];
@@ -49,11 +50,16 @@ export function getAdjacentProjects(slug: string): {
   prev: Project | null;
   next: Project | null;
 } {
-  const projects = getAllProjects();
-  const index = projects.findIndex((p) => p.slug === slug);
+  const project = getProjectBySlug(slug);
+  if (!project) return { prev: null, next: null };
+
+  const samePractice = getAllProjects().filter(
+    (p) => p.practice === project.practice
+  );
+  const index = samePractice.findIndex((p) => p.slug === slug);
   return {
-    prev: index > 0 ? projects[index - 1] : null,
-    next: index < projects.length - 1 ? projects[index + 1] : null,
+    prev: index > 0 ? samePractice[index - 1] : null,
+    next: index < samePractice.length - 1 ? samePractice[index + 1] : null,
   };
 }
 

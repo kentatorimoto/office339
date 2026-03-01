@@ -295,8 +295,8 @@
   {
     "slug": "irolog",
     "title": {
-      "ja": "iroLog — your daily color diary",
-      "en": "iroLog — your daily color diary"
+      "ja": "iroLog",
+      "en": "iroLog"
     },
     "period": "2026 -",
     "status": "active",
@@ -314,6 +314,7 @@
       "/images/projects/irolog/hero.jpg"
     ],
     "externalUrl": "",
+    "externalUrlNote": "※近日中にリリース予定",
     "artists": [],
     "tags": ["app", "interface", "color"],
     "order": 1
@@ -340,6 +341,7 @@
       "/images/projects/ryuiki/hero.jpg"
     ],
     "externalUrl": "",
+    "externalUrlNote": "※近日中にリリース予定",
     "artists": [],
     "tags": ["app", "interface", "watershed", "hokkaido"],
     "order": 2

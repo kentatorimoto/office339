@@ -194,19 +194,26 @@ export default async function ProjectPage({ params }: Props) {
             <p className="text-base font-light text-gray-700">{project.role.ja}</p>
           </div>
         )}
-        {project.externalUrl && (
+        {(project.externalUrl || project.externalUrlNote) && (
           <div>
             <p className="text-sm text-gray-500 tracking-wider mb-1">
               Website
             </p>
-            <a
-              href={project.externalUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-base font-light text-gray-700 underline underline-offset-4 hover:text-gray-500 transition-colors"
-            >
-              Visit site &rarr;
-            </a>
+            {project.externalUrl && (
+              <a
+                href={project.externalUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-base font-light text-gray-700 underline underline-offset-4 hover:text-gray-500 transition-colors"
+              >
+                Visit site &rarr;
+              </a>
+            )}
+            {project.externalUrlNote && (
+              <p className="mt-1 text-xs text-gray-400">
+                {project.externalUrlNote}
+              </p>
+            )}
           </div>
         )}
       </div>
