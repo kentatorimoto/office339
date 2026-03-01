@@ -73,7 +73,7 @@ export default function Home() {
                       </span>
                     </div>
                   )}
-                  <div className="mt-1 text-[10px] text-gray-300 tracking-wider">
+                  <div className="mt-1 text-sm text-gray-600 tracking-wider">
                     {project.period && <span>{project.period}</span>}
                   </div>
                 </div>
@@ -135,7 +135,7 @@ export default function Home() {
                       </span>
                     </div>
                   )}
-                  <div className="mt-1 text-[10px] text-gray-300 tracking-wider">
+                  <div className="mt-1 text-sm text-gray-600 tracking-wider">
                     {project.period && <span>{project.period}</span>}
                   </div>
                 </div>
@@ -197,7 +197,7 @@ export default function Home() {
                       </span>
                     </div>
                   )}
-                  <div className="mt-1 text-[10px] text-gray-300 tracking-wider">
+                  <div className="mt-1 text-sm text-gray-600 tracking-wider">
                     {project.period && <span>{project.period}</span>}
                   </div>
                 </div>
