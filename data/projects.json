@@ -309,9 +309,9 @@
       "ja": "1日1枚の写真から5色のカラーパレットを抽出し、日々を色で記録するアプリ。コンセプチュアル・アーティスト河原温が日付だけを描き続けた「Today」シリーズに着想を得た、デイリーカラーダイアリー。\n\n大事なのは写真の内容ではなく、「毎日、色を残す」という行為の継続そのもの。カレンダーに並んだパレットは、季節の移り変わり、生活のリズム、気分の変化を、言葉ではなく色のグラデーションとして浮かび上がらせる。\n\n1ヶ月分のパレットが並んだとき、それはもう小さなアート作品になっている。",
       "en": "An app that extracts a five-color palette from one photo each day, recording daily life through color. A daily color diary inspired by conceptual artist On Kawara's \"Today\" series, in which he painted nothing but the date, every day.\n\nWhat matters is not the content of the photo, but the act of capturing color each day. Palettes lined up on a calendar reveal the shift of seasons, the rhythm of life, and changes in mood — not through words, but through gradations of color.\n\nWhen a month of palettes comes together, it becomes a quiet work of art."
     },
-    "thumbnail": "/images/projects/irolog/hero.jpg",
+    "thumbnail": "/images/projects/irolog/hero.png",
     "images": [
-      "/images/projects/irolog/hero.jpg"
+      "/images/projects/irolog/hero.png"
     ],
     "externalUrl": "",
     "artists": [],
