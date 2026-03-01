@@ -258,12 +258,12 @@
     "externalUrl": "",
     "exhibition": {
       "artists": [
-        { "name": "ハナムラチカヒロ Chikahiro Hanamura" },
-        { "name": "磯崎道佳 Michiyoshi Isozaki" },
-        { "name": "林陽一 Yoichi Hayashi" }
+        { "name": "ハナムラチカヒロ" },
+        { "name": "磯崎道佳" },
+        { "name": "林陽一" }
       ],
       "credits": [
-        { "label": "Curator", "value": "鳥本健太 Kenta Torimoto" },
+        { "label": "Curator", "value": "鳥本健太" },
         { "label": "Venue", "value": "モエレ沼公園" },
         { "label": "Organizer", "value": "モエレ夏祭り実行委員会" }
       ]
