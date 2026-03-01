@@ -183,32 +183,42 @@
     "slug": "filter-the-public",
     "title": {
       "ja": "滤镜 FILTER THE PUBLIC",
-      "en": "FILTER THE PUBLIC"
+      "en": "滤镜 FILTER THE PUBLIC"
     },
-    "period": "",
-    "status": "archive",
+    "period": "2013",
+    "status": "works",
     "role": {
-      "ja": "",
-      "en": ""
+      "ja": "ディレクション",
+      "en": "Direction"
     },
     "description": {
-      "ja": "公共空間におけるフィルタリングをテーマにした展覧会。SNS時代における「見る」と「見せる」の構造を、メディアアート作品を通じて検証した。",
-      "en": "An exhibition themed on filtering in public spaces, examining the structure of 'seeing' and 'showing' in the age of social media through media art."
+      "ja": "上海环球金融中心（SWFC）開業5周年を記念して開催された、大規模都市型アートプロジェクト「FILTER THE PUBLIC」。鳥本健太と李力がプロジェクトディレクターを務め、超高層ビル内のすべての公共空間、屋外エリア、そして高さ492mの建築そのものを舞台に、SWFC全体を一つの美術館へと変換した。\n\n本プロジェクトには、上海を代表するアーティスト、国際的キュレーター、主要ギャラリーが参加し、展示、都市光作品、トーク、参加型プログラムなど複数の企画が連続的に展開。日常的に利用される商業・金融空間にアートを介入させることで、公共空間における芸術の役割と新たな可能性を検証した。\n\n来訪者は鑑賞者であると同時に都市体験の主体となり、建築・人・文化活動が交差する場として、ランドマークそのものが文化的プラットフォームへと再定義された。都市建築をメディアとして扱うキュラトリアル実践。",
+      "en": "\"FILTER THE PUBLIC,\" a large-scale urban art project held to commemorate the fifth anniversary of the Shanghai World Financial Center (SWFC). Kenta Torimoto and Li Li served as project directors, transforming the entire SWFC into a single art museum — using every public space within the skyscraper, outdoor areas, and the 492-meter building itself as venues.\n\nThe project brought together leading Shanghai-based artists, international curators, and major galleries, with exhibitions, urban light works, talks, and participatory programs unfolding in succession. By introducing art into everyday commercial and financial spaces, the project examined the role and new possibilities of art in the public realm.\n\nVisitors became not only audience but active participants in the urban experience, as the landmark itself was redefined as a cultural platform where architecture, people, and cultural activity intersect. A curatorial practice that treats urban architecture as a medium of expression."
     },
-    "thumbnail": "/images/projects/filter-the-public/01.jpg",
+    "thumbnail": "/images/projects/filter-the-public/hero.jpg",
     "images": [
+      "/images/projects/filter-the-public/hero.jpg",
       "/images/projects/filter-the-public/01.jpg",
       "/images/projects/filter-the-public/02.jpg",
       "/images/projects/filter-the-public/03.jpg",
       "/images/projects/filter-the-public/04.jpg",
       "/images/projects/filter-the-public/05.jpg",
-      "/images/projects/filter-the-public/06.jpg",
-      "/images/projects/filter-the-public/07.jpg",
-      "/images/projects/filter-the-public/08.jpg",
-      "/images/projects/filter-the-public/09.jpg",
-      "/images/projects/filter-the-public/10.jpg"
+      "/images/projects/filter-the-public/06.jpg"
     ],
     "externalUrl": "",
+    "exhibition": {
+      "programs": [
+        { "name": "SWFC LED Urban Sculpture Project", "href": "/projects/swfc-led-urban-sculpture" },
+        { "name": "海上荟2013 — Shanghai Galleries Selection 2013" },
+        { "name": "SWFC艺术对话 — SWFC Art Talk" },
+        { "name": "SWFC家庭花园 — Family Garden: My Shanghai x My Creation" }
+      ],
+      "credits": [
+        { "label": "Director", "value": "鳥本健太 Kenta Torimoto / 李力 Li Li" },
+        { "label": "Venue", "value": "Shanghai World Financial Center" },
+        { "label": "Organizer", "value": "Shanghai World Financial Center / 森ビル" }
+      ]
+    },
     "artists": [],
     "tags": ["exhibition", "media-art", "public-space"],
     "order": 5

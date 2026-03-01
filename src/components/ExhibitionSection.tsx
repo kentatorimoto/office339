@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type ExhibitionArtist = {
   name: string;
 };
@@ -7,9 +9,15 @@ type Credit = {
   value: string;
 };
 
+type Program = {
+  name: string;
+  href?: string;
+};
+
 type ExhibitionInfo = {
   concept?: string;
   artists?: ExhibitionArtist[];
+  programs?: Program[];
   credits?: Credit[];
 };
 
@@ -45,6 +53,35 @@ export default function ExhibitionSection({ info }: { info: ExhibitionInfo }) {
               {info.artists.map((artist, index) => (
                 <li key={index} className="text-sm font-light">
                   {artist.name}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      )}
+
+      {/* Programs */}
+      {info.programs && info.programs.length > 0 && (
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-16 py-16 md:py-24">
+          <div className="md:col-span-4">
+            <h2 className="text-xs tracking-widest text-gray-400 uppercase">
+              Programs
+            </h2>
+          </div>
+          <div className="md:col-span-8">
+            <ul className="space-y-3">
+              {info.programs.map((program, index) => (
+                <li key={index} className="text-sm font-light">
+                  {program.href ? (
+                    <Link
+                      href={program.href}
+                      className="underline underline-offset-4 hover:text-gray-500 transition-colors"
+                    >
+                      {program.name}
+                    </Link>
+                  ) : (
+                    program.name
+                  )}
                 </li>
               ))}
             </ul>

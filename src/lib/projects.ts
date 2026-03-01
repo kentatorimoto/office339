@@ -26,6 +26,7 @@ export type Project = {
   exhibition?: {
     concept?: string;
     artists?: { name: string }[];
+    programs?: { name: string; href?: string }[];
     credits?: { label: string; value: string }[];
   };
   tags: string[];
