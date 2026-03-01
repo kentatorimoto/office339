@@ -215,6 +215,43 @@
     "hidden": true
   },
   {
+    "slug": "moere-summer-festival",
+    "title": {
+      "ja": "モエレ星の伝説 - Moere Summer Festival 2013",
+      "en": "モエレ星の伝説 - Moere Summer Festival 2013"
+    },
+    "period": "2013",
+    "status": "archive",
+    "role": {
+      "ja": "キュレーション",
+      "en": "Curation"
+    },
+    "description": {
+      "ja": "札幌市モエレ沼公園で開催された夏祭りのアート・演出をキュレーション。「星空と大地」をテーマに、アーティストの選定から花火・パフォーマンス・インスタレーションの演出設計までを統括した。ハナムラチカヒロが考案した物語「モエレ星の伝説」をもとに、1万人の来場者が大地に祈りの星を灯すインスタレーション、「ヤミボウズ」のパレード、オリジナル組曲による花火演出を展開。",
+      "en": "Curated the art and performance program for a summer festival at Moerenuma Park, Sapporo. Under the theme of \"starry sky and earth,\" the project encompassed artist selection and the design of fireworks, performances, and installations. Based on the narrative \"Legend of Moere Star\" conceived by Chikahiro Hanamura, the event featured an installation where 10,000 visitors lit prayer stars across the land, a parade of \"Yamibouzu,\" and fireworks set to an original suite of music."
+    },
+    "thumbnail": "/images/projects/moere-summer-festival/hero.webp",
+    "images": [
+      "/images/projects/moere-summer-festival/hero.webp"
+    ],
+    "externalUrl": "",
+    "exhibition": {
+      "artists": [
+        { "name": "ハナムラチカヒロ Chikahiro Hanamura" },
+        { "name": "磯崎道佳 Michiyoshi Isozaki" },
+        { "name": "林陽一 Yoichi Hayashi" }
+      ],
+      "credits": [
+        { "label": "Curator", "value": "鳥本健太 Kenta Torimoto" },
+        { "label": "Venue", "value": "モエレ沼公園 Moerenuma Park" },
+        { "label": "Organizer", "value": "モエレ夏祭り実行委員会" }
+      ]
+    },
+    "artists": [],
+    "tags": ["festival", "music", "art", "sapporo", "curation"],
+    "order": 6
+  },
+  {
     "slug": "moere-summer-festival-2013",
     "title": {
       "ja": "MOERE SUMMER FESTIVAL 2013",
