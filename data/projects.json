@@ -205,6 +205,9 @@
       "/images/projects/filter-the-public/05.jpg"
     ],
     "externalUrl": "",
+    "videos": [
+      { "url": "https://youtu.be/L7B4MiQIGFQ", "title": "FILTER THE PUBLIC" }
+    ],
     "exhibition": {
       "programs": [
         { "name": "SWFC LED Urban Sculpture Project", "href": "/projects/swfc-led-urban-sculpture" },
