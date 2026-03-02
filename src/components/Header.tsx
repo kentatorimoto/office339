@@ -13,7 +13,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-18 md:h-24">
           <Link href="/">
             <Image
-              src="/images/logo.png"
+              src="/images/logo/logo.png"
               alt="office339"
               width={240}
               height={52}
