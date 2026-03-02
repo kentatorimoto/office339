@@ -4,9 +4,17 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://office339.com"),
   title: "office339",
-  description:
-    "office339 — Art Direction / Curation / Production",
+  description: "office339 — Art Direction / Curation / Production",
+  openGraph: {
+    siteName: "office339",
+    type: "website",
+    locale: "ja_JP",
+  },
+  twitter: {
+    card: "summary_large_image",
+  },
 };
 
 export default function RootLayout({

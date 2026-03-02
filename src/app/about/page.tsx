@@ -5,6 +5,10 @@ import aboutData from "../../../data/about.json";
 export const metadata: Metadata = {
   title: "About — office339",
   description: aboutData.office.ja,
+  openGraph: {
+    title: "About — office339",
+    description: aboutData.office.ja,
+  },
 };
 
 export default function AboutPage() {

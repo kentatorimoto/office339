@@ -274,7 +274,6 @@
     ],
     "externalUrl": "",
     "exhibition": {
-      "concept": "\u201c不是艺术模仿自然，而是自然模仿艺术\u201d ——オスカー・ワイルド。\nこの展覧会は、アートを通じて都市の中に潜む\u201c自然の庭園\u201dを発掘する試みである。",
       "artists": [
         { "name": "陸新建 Lu Xinjian" },
         { "name": "李在孝 Lee Jaehyo" },
@@ -282,7 +281,7 @@
         { "name": "PRISM DESIGN + Office339" }
       ],
       "credits": [
-        { "label": "Curator", "value": "Kenta Torimoto" },
+        { "label": "Curator", "value": "鳥本健太 Kenta Torimoto" },
         { "label": "Venue", "value": "Shanghai World Financial Center" },
         { "label": "Organizer", "value": "Shanghai World Financial Center" },
         { "label": "Support", "value": "ART LABOR GALLERY, island6, M ART CENTER" }
