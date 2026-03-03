@@ -68,7 +68,11 @@ export default async function ProjectPage({ params }: Props) {
           <p className="mt-2 text-sm text-gray-400">{project.title.en}</p>
         )}
         <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-gray-600 tracking-wider">
-          <span className="text-gray-700">{project.practice}</span>
+          <span className="text-gray-700">
+            {project.practice.toUpperCase().includes("PRACTICE")
+              ? project.practice.toUpperCase()
+              : `${project.practice.toUpperCase()} PRACTICE`}
+          </span>
           {project.period && <span>{project.period}</span>}
           {project.role.ja && <span>{project.role.ja}</span>}
           {project.status === "active" && (
