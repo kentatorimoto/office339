@@ -257,7 +257,7 @@
       "en": "Curation"
     },
     "description": {
-      "ja": "上海環球金融中心の6周年を記念して開催したグループ展。絵画、彫刻、デジタルアート、空間インスタレーションの4組のアーティストの作品が、オフィスビルのエントランスを一つの庭園へと変容させた。\n\n人工物によって構成された作品群が、都市の中に潜む\"自然\"を浮かび上がらせる試み。",
+      "ja": "都市の象徴的建築空間を舞台に展開されたグループ展。絵画、彫刻、デジタルアート、空間インスタレーションによる4組のアーティストの作品が、オフィスビルのエントランスをひとつの庭園へと変容させた。\n\n人工物によって構成された作品群が、都市の中に潜む「自然」を浮かび上がらせる試み。",
       "en": "A group exhibition held to celebrate the sixth anniversary of the Shanghai World Financial Center. Works by four groups of artists — spanning painting, sculpture, digital art, and spatial installation — transformed the office building's entrance into a single garden.\n\nAn attempt to reveal the \"nature\" hidden within the city through works composed of artificial matter."
     },
     "thumbnail": "/images/projects/artificial-garden/hero.webp",
@@ -312,8 +312,8 @@
     "images": [
       "/images/projects/irolog/hero.jpg"
     ],
-    "externalUrl": "",
-    "externalUrlNote": "※近日中にリリース予定",
+    "externalUrl": "https://apps.apple.com/app/irolog/id6759697096",
+    "externalUrlNote": "",
     "artists": [],
     "tags": ["app", "interface", "color"],
     "order": 1
