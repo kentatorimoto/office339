@@ -2,22 +2,10 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isMd, setIsMd] = useState(true);
-
-  useEffect(() => {
-    const mql = window.matchMedia("(min-width: 768px)");
-    setIsMd(mql.matches);
-    const handler = (e: MediaQueryListEvent) => setIsMd(e.matches);
-    mql.addEventListener("change", handler);
-    return () => mql.removeEventListener("change", handler);
-  }, []);
-
-  const logoW = isMd ? 149 : 126;
-  const logoH = isMd ? 52 : 44;
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm">
@@ -27,10 +15,10 @@ export default function Header() {
             <Image
               src="/images/logo/logo.png"
               alt="office339"
-              width={logoW}
-              height={logoH}
-              className="block shrink-0 -ml-3 md:-ml-4"
-              style={{ imageRendering: '-webkit-optimize-contrast' }}
+              width={1698}
+              height={591}
+              className="block shrink-0 -ml-3 md:-ml-4 h-[44px] md:h-[52px]"
+              style={{ width: 'auto', height: undefined }}
               priority
             />
           </Link>
