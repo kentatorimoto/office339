@@ -2,22 +2,35 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isMd, setIsMd] = useState(true);
+
+  useEffect(() => {
+    const mql = window.matchMedia("(min-width: 768px)");
+    setIsMd(mql.matches);
+    const handler = (e: MediaQueryListEvent) => setIsMd(e.matches);
+    mql.addEventListener("change", handler);
+    return () => mql.removeEventListener("change", handler);
+  }, []);
+
+  const logoW = isMd ? 149 : 126;
+  const logoH = isMd ? 52 : 44;
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         <div className="flex items-center justify-between h-18 md:h-24">
-          <Link href="/">
+          <Link href="/" className="inline-flex items-center shrink-0">
             <Image
               src="/images/logo/logo.png"
               alt="office339"
-              width={240}
-              height={52}
-              className="h-[44px] md:h-[52px] w-auto -ml-3 md:-ml-4"
+              width={logoW}
+              height={logoH}
+              className="block shrink-0 -ml-3 md:-ml-4"
+              style={{ imageRendering: '-webkit-optimize-contrast' }}
               priority
             />
           </Link>

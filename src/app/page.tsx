@@ -59,6 +59,11 @@ export default function Home() {
                         ? "(max-width: 768px) 100vw, 1280px"
                         : "(max-width: 768px) 100vw, 640px"
                     }
+                    style={
+                      project.slug === "ryuiki" ? { objectPosition: "55% 35%" } :
+                      project.slug === "shintoku-atlas" ? { objectPosition: "left center" } :
+                      undefined
+                    }
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500" />
                 </div>
@@ -121,6 +126,11 @@ export default function Home() {
                         ? "(max-width: 768px) 100vw, 1280px"
                         : "(max-width: 768px) 100vw, 640px"
                     }
+                    style={
+                      project.slug === "ryuiki" ? { objectPosition: "55% 35%" } :
+                      project.slug === "shintoku-atlas" ? { objectPosition: "left center" } :
+                      undefined
+                    }
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500" />
                 </div>
@@ -182,6 +192,11 @@ export default function Home() {
                       index === 0
                         ? "(max-width: 768px) 100vw, 1280px"
                         : "(max-width: 768px) 100vw, 640px"
+                    }
+                    style={
+                      project.slug === "ryuiki" ? { objectPosition: "55% 35%" } :
+                      project.slug === "shintoku-atlas" ? { objectPosition: "left center" } :
+                      undefined
                     }
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors duration-500" />

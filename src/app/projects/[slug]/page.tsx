@@ -47,6 +47,11 @@ export default async function ProjectPage({ params }: Props) {
 
   const { prev, next } = getAdjacentProjects(slug);
 
+  const heroObjectPosition =
+    slug === "ryuiki" ? "55% 35%" :
+    slug === "shintoku-atlas" ? "left center" :
+    "center";
+
   return (
     <article className="max-w-7xl mx-auto px-6 md:px-12">
       {/* Back link */}
@@ -90,6 +95,7 @@ export default async function ProjectPage({ params }: Props) {
           alt={project.title.ja}
           fill
           className="object-cover"
+          style={{ objectPosition: heroObjectPosition }}
           sizes="(max-width: 768px) 100vw, 1280px"
           priority
         />
