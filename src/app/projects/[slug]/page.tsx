@@ -55,7 +55,7 @@ export default async function ProjectPage({ params }: Props) {
   return (
     <article className="max-w-7xl mx-auto px-6 md:px-12">
       {/* Back link */}
-      <div className="pt-8 md:pt-12">
+      <div className="pt-6 md:pt-12">
         <Link
           href="/"
           className="text-xs tracking-wider text-gray-400 hover:text-black transition-colors"
@@ -65,14 +65,14 @@ export default async function ProjectPage({ params }: Props) {
       </div>
 
       {/* Title section */}
-      <header className="pt-12 md:pt-20 pb-12 md:pb-16">
+      <header className="pt-8 md:pt-20 pb-8 md:pb-16">
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-light tracking-tight">
           {project.title.ja}
         </h1>
         {project.title.en !== project.title.ja && (
           <p className="mt-2 text-sm text-gray-400">{project.title.en}</p>
         )}
-        <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-gray-600 tracking-wider">
+        <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs md:text-sm text-gray-500 tracking-wider">
           <span className="text-gray-700">
             {project.practice.toUpperCase().includes("PRACTICE")
               ? project.practice.toUpperCase()
@@ -102,7 +102,7 @@ export default async function ProjectPage({ params }: Props) {
       </div>
 
       {/* Description */}
-      <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-16 py-16 md:py-24">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-16 py-12 md:py-24">
         <div className="md:col-span-4">
           <h2 className="text-xs tracking-widest text-gray-400 uppercase">
             Overview
@@ -130,7 +130,7 @@ export default async function ProjectPage({ params }: Props) {
 
       {/* Photo gallery */}
       {project.images.length > 1 && (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6">
           {project.images.slice(1).map((image, index) => (
             <div
               key={index}
@@ -190,7 +190,7 @@ export default async function ProjectPage({ params }: Props) {
       )}
 
       {/* Project info */}
-      <div className="border-t border-gray-200 py-12 md:py-16 grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="border-t border-gray-200 py-8 md:py-16 grid grid-cols-2 md:grid-cols-4 gap-8">
         {project.period && (
           <div>
             <p className="text-sm text-gray-500 tracking-wider mb-1">Period</p>
@@ -234,7 +234,7 @@ export default async function ProjectPage({ params }: Props) {
       </div>
 
       {/* Prev / Next navigation */}
-      <nav className="border-t border-gray-200 py-12 md:py-16 grid grid-cols-2 gap-8">
+      <nav className="border-t border-gray-200 py-8 md:py-16 grid grid-cols-2 gap-8">
         <div>
           {prev && (
             <Link

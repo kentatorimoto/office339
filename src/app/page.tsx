@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       {/* Hero / Intro */}
-      <section className="px-6 md:px-12 max-w-7xl mx-auto pt-48 md:pt-48 pb-60 md:pb-56">
+      <section className="px-6 md:px-12 max-w-7xl mx-auto pt-32 md:pt-48 pb-24 md:pb-56">
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-light italic tracking-tight leading-tight font-display">
           Art, as Practice.
         </h1>
@@ -21,8 +21,8 @@ export default function Home() {
       </section>
 
       {/* SITE Practice */}
-      <section className="px-6 md:px-12 max-w-7xl mx-auto pb-24 md:pb-32">
-        <div className="mb-10 md:mb-14">
+      <section className="px-6 md:px-12 max-w-7xl mx-auto pb-16 md:pb-32">
+        <div className="mb-8 md:mb-14">
           <h2 className="text-sm tracking-widest text-gray-700 uppercase">
             SITE Practice
           </h2>
@@ -33,7 +33,7 @@ export default function Home() {
             土地や風景を見つめ直し、<br />場所に眠る可能性をひらく実践。
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 md:gap-y-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10 md:gap-y-24">
           {projects
             .filter((p) => p.practice === "Site")
             .map((project, index) => (
@@ -88,8 +88,8 @@ export default function Home() {
       </section>
 
       {/* URBAN Practice */}
-      <section className="px-6 md:px-12 max-w-7xl mx-auto pb-24 md:pb-32">
-        <div className="mb-10 md:mb-14">
+      <section className="px-6 md:px-12 max-w-7xl mx-auto pb-16 md:pb-32">
+        <div className="mb-8 md:mb-14">
           <h2 className="text-sm tracking-widest text-gray-700 uppercase">
             URBAN Practice
           </h2>
@@ -100,7 +100,7 @@ export default function Home() {
             都市をひとつのメディアとして捉え直し、<br />空間の体験を編み直す実践。
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 md:gap-y-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10 md:gap-y-24">
           {projects
             .filter((p) => p.practice === "Urban")
             .map((project, index) => (
@@ -155,8 +155,8 @@ export default function Home() {
       </section>
 
       {/* INTERFACE Practice */}
-      <section className="px-6 md:px-12 max-w-7xl mx-auto pb-20">
-        <div className="mb-10 md:mb-14">
+      <section className="px-6 md:px-12 max-w-7xl mx-auto pb-12 md:pb-20">
+        <div className="mb-8 md:mb-14">
           <h2 className="text-sm tracking-widest text-gray-700 uppercase">
             INTERFACE Practice
           </h2>
@@ -167,7 +167,7 @@ export default function Home() {
             世界の見え方や関係性を見つめ直すための、<br />視点や装置をかたちにする実践。
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 md:gap-y-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10 md:gap-y-24">
           {projects
             .filter((p) => p.practice === "Interface")
             .map((project, index) => (
