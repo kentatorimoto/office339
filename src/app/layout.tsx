@@ -7,11 +7,12 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://office339.com"),
   title: "office339",
-  description: "office339 — Art Direction / Curation / Production",
+  description: "office339 — Art, as Practice.",
   openGraph: {
     siteName: "office339",
     type: "website",
     locale: "ja_JP",
+    images: [{ url: '/images/og-image.png', width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
