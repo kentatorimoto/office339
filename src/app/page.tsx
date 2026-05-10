@@ -244,10 +244,10 @@ export default function Home() {
             <br className="hidden md:block" />
             場が育つための構造を、共に設計する仕事を、
             <br className="hidden md:block" />
-            限られた数だけ受けています。
+            限られた数だけお受けしています。
           </p>
           <p className="mt-4 text-base md:text-lg font-light leading-relaxed text-gray-700">
-            長期的な対話を前提とした協働を歓迎します。
+            長期的な対話を前提とした協働を歓迎いたします。
           </p>
         </div>
       </section>
