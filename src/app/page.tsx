@@ -247,7 +247,7 @@ export default function Home() {
             限られた数だけお受けしています。
           </p>
           <p className="mt-4 text-base md:text-lg font-light leading-relaxed text-gray-700">
-            長期的な対話を前提とした協働を歓迎いたします。
+            長期的な対話を前提とした協働を、丁寧に重ねていきたいと考えています。
           </p>
         </div>
       </section>
