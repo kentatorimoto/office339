@@ -18,7 +18,7 @@ export default function Home() {
         <p className="mt-8 text-xs md:text-sm tracking-[0.3em] text-gray-400">
           SHANGHAI - TOKACHI
         </p>
-        <div className="mt-16 md:mt-24 max-w-2xl">
+        <div className="mt-32 md:mt-48 max-w-2xl">
           <p className="text-base md:text-lg font-light leading-relaxed text-gray-700">
             office339 は、北海道・十勝を拠点に、アートを実践として展開するスタジオです。
             <br className="hidden md:block" />
