@@ -1,27 +1,44 @@
+import Image from "next/image";
 import ProjectCard from "@/components/ProjectCard";
 import { getListedProjects } from "@/lib/projects";
+
+const HERO_IMAGE = "/images/projects/ganke-tsumugi/hero.jpg";
 
 export default function Home() {
   const projects = getListedProjects();
 
   return (
     <>
-      {/* Hero / Intro */}
-      <section className="px-6 md:px-12 max-w-7xl mx-auto md:pt-48 pb-24 md:pb-56">
-        <div className="flex flex-col min-h-[calc(100svh-8rem)] md:block md:min-h-0">
-          <div className="grow md:hidden" />
+      {/* Hero */}
+      <section
+        data-home-hero
+        className="relative -mt-18 md:-mt-24 h-svh flex flex-col justify-end"
+      >
+        <Image
+          src={HERO_IMAGE}
+          alt=""
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-black/30" />
+        <div className="relative w-full max-w-7xl mx-auto px-6 md:px-12 pb-12 md:pb-10 text-white">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-light italic tracking-tight leading-tight font-display">
             Art, as Practice.
           </h1>
-          <p className="mt-5 md:mt-6 text-base md:text-lg font-serif text-gray-500">
+          <p className="mt-5 md:mt-6 text-base md:text-lg font-serif">
             アートを、実践として
           </p>
-          <p className="mt-8 text-[11px] md:text-sm tracking-[0.3em] text-gray-500">
+          <p className="mt-8 text-[11px] md:text-sm tracking-[0.3em]">
             SHANGHAI - TOKACHI - TOKYO
           </p>
-          <div className="grow-[2] md:hidden" />
         </div>
-        <div className="md:mt-48 max-w-2xl">
+      </section>
+
+      {/* Intro */}
+      <section className="px-6 md:px-12 max-w-7xl mx-auto pt-20 md:pt-40 pb-24 md:pb-40">
+        <div className="max-w-2xl">
           <p className="text-base md:text-lg font-light leading-relaxed text-gray-700 lining-nums">
             office339 は、アートを実践として展開するスタジオです。
             <br className="hidden md:block" />

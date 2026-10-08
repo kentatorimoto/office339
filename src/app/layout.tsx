@@ -32,7 +32,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-white text-gray-900 font-sans">
+      <body className="group/body bg-white text-gray-900 font-sans">
         <Header />
         <main className="min-h-screen pt-18 md:pt-24">{children}</main>
         <Footer />
