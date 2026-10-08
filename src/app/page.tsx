@@ -7,26 +7,25 @@ export default function Home() {
   return (
     <>
       {/* Hero / Intro */}
-      <section className="px-6 md:px-12 max-w-7xl mx-auto pt-14 md:pt-48 pb-36 md:pb-56">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-light italic tracking-tight leading-tight font-display">
-          Art, as Practice.
-        </h1>
-        <p className="mt-5 md:mt-6 text-base md:text-lg font-serif text-gray-500">
-          アートを、実践として
-        </p>
-        <p className="mt-8 text-[11px] md:text-sm tracking-[0.3em] text-gray-500">
-          SHANGHAI - TOKACHI - TOKYO
-        </p>
-        <div className="mt-14 md:mt-48 max-w-2xl">
+      <section className="px-6 md:px-12 max-w-7xl mx-auto pt-14 md:pt-48 pb-24 md:pb-56">
+        <div className="min-h-[calc(100svh-8rem)] md:min-h-0">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-light italic tracking-tight leading-tight font-display">
+            Art, as Practice.
+          </h1>
+          <p className="mt-5 md:mt-6 text-base md:text-lg font-serif text-gray-500">
+            アートを、実践として
+          </p>
+          <p className="mt-8 text-[11px] md:text-sm tracking-[0.3em] text-gray-500">
+            SHANGHAI - TOKACHI - TOKYO
+          </p>
+        </div>
+        <div className="md:mt-48 max-w-2xl">
           <p className="text-base md:text-lg font-light leading-relaxed text-gray-700 lining-nums">
             office339 は、アートを実践として展開するスタジオです。
             <br className="hidden md:block" />
             土地や風景、都市、人の技——すでにそこにある素材を読み、
             <br className="hidden md:block" />
-            場が育つための構造そのものを設計しています。
-          </p>
-          <p className="mt-2 md:mt-4 text-sm md:text-base font-light text-gray-500 lining-nums">
-            2006年、上海で設立。
+            場が育つための構造そのものを設計しています。2006年、上海で設立。
           </p>
         </div>
       </section>
