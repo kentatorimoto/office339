@@ -189,7 +189,7 @@ export default async function ProjectPage({ params }: Props) {
         {project.period && (
           <div>
             <p className="text-sm text-gray-500 tracking-wider mb-1">Period</p>
-            <p className="text-base font-light text-gray-700">{project.period}</p>
+            <p className="text-base font-light text-gray-700 lining-nums">{project.period}</p>
           </div>
         )}
         <div>

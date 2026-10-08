@@ -28,7 +28,7 @@ export default function ProjectCard({ project }: { project: Project }) {
             </span>
           </div>
         )}
-        <div className="mt-1 text-sm text-gray-600 tracking-wider">
+        <div className="mt-1 text-sm text-gray-600 tracking-wider lining-nums">
           {project.period && <span>{project.period}</span>}
         </div>
         {project.categories.length > 0 && (
