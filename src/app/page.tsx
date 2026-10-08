@@ -20,17 +20,18 @@ export default function Home() {
           fill
           priority
           sizes="100vw"
-          className="object-cover"
+          className="object-cover object-bottom"
         />
-        <div className="absolute inset-0 bg-black/30" />
-        <div className="relative w-full max-w-7xl mx-auto px-6 md:px-12 pb-12 md:pb-10 text-white">
+        <div className="absolute inset-0 bg-black/20" />
+        <div className="absolute inset-x-0 top-0 h-30 bg-linear-to-b from-black/25 to-transparent" />
+        <div className="relative w-full max-w-7xl mx-auto px-6 md:px-12 pb-6 md:pb-5 text-white">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-light italic tracking-tight leading-tight font-display">
             Art, as Practice.
           </h1>
-          <p className="mt-5 md:mt-6 text-base md:text-lg font-serif">
+          <p className="mt-5 md:mt-4 text-base md:text-lg font-serif">
             アートを、実践として
           </p>
-          <p className="mt-8 text-[11px] md:text-sm tracking-[0.3em]">
+          <p className="mt-8 md:mt-6 text-[11px] md:text-sm tracking-[0.3em]">
             SHANGHAI - TOKACHI - TOKYO
           </p>
         </div>
