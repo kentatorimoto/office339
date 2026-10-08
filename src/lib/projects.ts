@@ -15,10 +15,11 @@ export type Project = {
   title: LocalizedText;
   period: string;
   status: "active" | "works" | "archive";
-  practice: "Site" | "Urban" | "Interface";
+  categories: string[];
   role: LocalizedText;
   description: LocalizedText;
   thumbnail: string;
+  thumbnailPosition?: string;
   images: string[];
   externalUrl: string;
   externalUrlNote?: string;
@@ -35,11 +36,17 @@ export type Project = {
   tags: string[];
   order: number;
   hidden?: boolean;
+  parent?: string;
+  listed?: boolean;
 };
 
 export function getAllProjects(): Project[] {
   const projects = (projectsData as Project[]).filter((p) => !p.hidden);
   return projects.sort((a, b) => a.order - b.order);
+}
+
+export function getListedProjects(): Project[] {
+  return getAllProjects().filter((p) => p.listed !== false);
 }
 
 export function getProjectBySlug(slug: string): Project | undefined {
@@ -50,16 +57,12 @@ export function getAdjacentProjects(slug: string): {
   prev: Project | null;
   next: Project | null;
 } {
-  const project = getProjectBySlug(slug);
-  if (!project) return { prev: null, next: null };
-
-  const samePractice = getAllProjects().filter(
-    (p) => p.practice === project.practice
-  );
-  const index = samePractice.findIndex((p) => p.slug === slug);
+  const listed = getListedProjects();
+  const index = listed.findIndex((p) => p.slug === slug);
+  if (index === -1) return { prev: null, next: null };
   return {
-    prev: index > 0 ? samePractice[index - 1] : null,
-    next: index < samePractice.length - 1 ? samePractice[index + 1] : null,
+    prev: index > 0 ? listed[index - 1] : null,
+    next: index < listed.length - 1 ? listed[index + 1] : null,
   };
 }
 

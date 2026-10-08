@@ -29,10 +29,10 @@ export default function AboutPage() {
           </h2>
         </div>
         <div className="md:col-span-8 space-y-6">
-          <p className="text-base md:text-lg leading-relaxed font-light">
+          <p className="text-base md:text-lg leading-relaxed font-light lining-nums">
             {aboutData.office.ja}
           </p>
-          <p className="text-sm leading-relaxed text-gray-400">
+          <p className="text-sm leading-relaxed text-gray-500">
             {aboutData.office.en}
           </p>
         </div>
