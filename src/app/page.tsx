@@ -7,8 +7,9 @@ export default function Home() {
   return (
     <>
       {/* Hero / Intro */}
-      <section className="px-6 md:px-12 max-w-7xl mx-auto pt-14 md:pt-48 pb-24 md:pb-56">
-        <div className="min-h-[calc(100svh-8rem)] md:min-h-0">
+      <section className="px-6 md:px-12 max-w-7xl mx-auto md:pt-48 pb-24 md:pb-56">
+        <div className="flex flex-col min-h-[calc(100svh-8rem)] md:block md:min-h-0">
+          <div className="grow md:hidden" />
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-light italic tracking-tight leading-tight font-display">
             Art, as Practice.
           </h1>
@@ -18,6 +19,7 @@ export default function Home() {
           <p className="mt-8 text-[11px] md:text-sm tracking-[0.3em] text-gray-500">
             SHANGHAI - TOKACHI - TOKYO
           </p>
+          <div className="grow-[2] md:hidden" />
         </div>
         <div className="md:mt-48 max-w-2xl">
           <p className="text-base md:text-lg font-light leading-relaxed text-gray-700 lining-nums">
@@ -25,7 +27,8 @@ export default function Home() {
             <br className="hidden md:block" />
             土地や風景、都市、人の技——すでにそこにある素材を読み、
             <br className="hidden md:block" />
-            場が育つための構造そのものを設計しています。2006年、上海で設立。
+            場が育つための構造そのものを設計しています。
+            <span className="whitespace-nowrap">2006年、上海で設立。</span>
           </p>
         </div>
       </section>
