@@ -1,24 +1,7 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect } from "react";
 
 export default function Header() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [isMd, setIsMd] = useState(true);
-
-  useEffect(() => {
-    const mql = window.matchMedia("(min-width: 768px)");
-    setIsMd(mql.matches);
-    const handler = (e: MediaQueryListEvent) => setIsMd(e.matches);
-    mql.addEventListener("change", handler);
-    return () => mql.removeEventListener("change", handler);
-  }, []);
-
-  const logoW = isMd ? 149 : 126;
-  const logoH = isMd ? 52 : 44;
-
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-6 md:px-12">
@@ -27,76 +10,36 @@ export default function Header() {
             <Image
               src="/images/logo/logo.png"
               alt="office339"
-              width={logoW}
-              height={logoH}
-              className="block shrink-0 -ml-3 md:-ml-4"
+              width={149}
+              height={52}
+              className="block shrink-0 h-11 md:h-13 w-auto -ml-3 md:-ml-4"
               style={{ imageRendering: '-webkit-optimize-contrast' }}
               priority
             />
           </Link>
 
-          {/* Desktop nav */}
-          <nav className="hidden md:flex items-center gap-10">
+          <nav className="flex items-baseline gap-3 md:gap-10 text-xs md:text-sm font-light text-gray-600 whitespace-nowrap">
             <Link
               href="/"
-              className="text-sm tracking-[0.15em] font-light text-gray-600 hover:text-black transition-colors"
+              className="tracking-[0.1em] md:tracking-[0.15em] hover:text-black transition-colors"
             >
               Practice
             </Link>
             <Link
+              href="/ryuiki-editorial"
+              className="text-[0.9em] tracking-[0.05em] hover:text-black transition-colors"
+            >
+              流域編集
+            </Link>
+            <Link
               href="/about"
-              className="text-sm tracking-[0.15em] font-light text-gray-600 hover:text-black transition-colors"
+              className="tracking-[0.1em] md:tracking-[0.15em] hover:text-black transition-colors"
             >
               About
             </Link>
           </nav>
-
-          {/* Mobile menu button */}
-          <button
-            className="md:hidden flex flex-col gap-1.5 p-2"
-            onClick={() => setIsOpen(!isOpen)}
-            aria-label="Toggle menu"
-          >
-            <span
-              className={`block w-6 h-px bg-black transition-transform ${
-                isOpen ? "rotate-45 translate-y-[3.5px]" : ""
-              }`}
-            />
-            <span
-              className={`block w-6 h-px bg-black transition-opacity ${
-                isOpen ? "opacity-0" : ""
-              }`}
-            />
-            <span
-              className={`block w-6 h-px bg-black transition-transform ${
-                isOpen ? "-rotate-45 -translate-y-[3.5px]" : ""
-              }`}
-            />
-          </button>
         </div>
       </div>
-
-      {/* Mobile nav */}
-      {isOpen && (
-        <nav className="md:hidden border-t border-gray-100 bg-white">
-          <div className="px-6 py-8 flex flex-col gap-6">
-            <Link
-              href="/"
-              className="text-sm tracking-[0.15em] font-light text-gray-600 hover:text-black transition-colors"
-              onClick={() => setIsOpen(false)}
-            >
-              Practice
-            </Link>
-            <Link
-              href="/about"
-              className="text-sm tracking-[0.15em] font-light text-gray-600 hover:text-black transition-colors"
-              onClick={() => setIsOpen(false)}
-            >
-              About
-            </Link>
-          </div>
-        </nav>
-      )}
     </header>
   );
 }

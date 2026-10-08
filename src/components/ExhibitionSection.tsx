@@ -39,7 +39,7 @@ export default function ExhibitionSection({ info }: { info: ExhibitionInfo }) {
             </h2>
           </div>
           <div className="md:col-span-8">
-            <p className="text-base md:text-lg leading-relaxed font-light whitespace-pre-line">
+            <p className="text-base md:text-lg leading-relaxed font-light whitespace-pre-line lining-nums">
               {info.concept}
             </p>
           </div>

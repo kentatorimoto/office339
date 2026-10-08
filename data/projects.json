@@ -7,7 +7,7 @@
     },
     "period": "2024 -",
     "status": "active",
-    "practice": "Site",
+    "categories": ["土地", "人"],
     "role": {
       "ja": "実践",
       "en": "Practice"
@@ -40,7 +40,7 @@
     },
     "period": "2021 -",
     "status": "active",
-    "practice": "Site",
+    "categories": ["都市"],
     "role": {
       "ja": "ディレクション",
       "en": "Direction"
@@ -73,7 +73,7 @@
     },
     "period": "2014 -",
     "status": "active",
-    "practice": "Site",
+    "categories": ["土地", "人"],
     "role": {
       "ja": "立ち上げ・実践",
       "en": "Founding & Practice"
@@ -109,7 +109,7 @@
     },
     "period": "2016",
     "status": "works",
-    "practice": "Urban",
+    "categories": ["都市"],
     "role": {
       "ja": "プロデュース",
       "en": "Production"
@@ -143,7 +143,7 @@
     },
     "period": "2013",
     "status": "works",
-    "practice": "Urban",
+    "categories": ["都市"],
     "role": {
       "ja": "ディレクション",
       "en": "Direction"
@@ -210,7 +210,7 @@
     },
     "period": "2013",
     "status": "works",
-    "practice": "Urban",
+    "categories": ["都市"],
     "role": {
       "ja": "キュレーション",
       "en": "Curation"
@@ -251,7 +251,7 @@
     },
     "period": "2014",
     "status": "works",
-    "practice": "Urban",
+    "categories": ["都市"],
     "role": {
       "ja": "キュレーション",
       "en": "Curation"
@@ -299,7 +299,7 @@
     },
     "period": "2026 -",
     "status": "active",
-    "practice": "Interface",
+    "categories": ["道具"],
     "role": {
       "ja": "開発・実践",
       "en": "Development & Practice"
@@ -326,7 +326,7 @@
     },
     "period": "2026 -",
     "status": "active",
-    "practice": "Interface",
+    "categories": ["土地", "道具"],
     "role": {
       "ja": "開発・実践",
       "en": "Development & Practice"
@@ -336,6 +336,7 @@
       "en": "An iOS app that invites you to re-sense the place where you stand through the lens of watersheds. It redefines the map not as a tool for finding locations, but as an interface for perceiving the energy cycles of the earth.\n\nBuilt on the philosophical foundations of Yuji Kishi's watershed thinking and Shin-ichi Fukuoka's dynamic equilibrium, the app visualizes the terrain beneath your feet, the flow of water, and the boundaries shaped by mountain ranges. Upon opening, the local terrain appears, rivers and watershed contours emerge, and you intuitively grasp which watershed you belong to. Covering all 13 primary river systems of Hokkaido with approximately 26,000 rivers.\n\nA device that connects grand ideas to small, everyday acts."
     },
     "thumbnail": "/images/projects/ryuiki/hero.jpg",
+    "thumbnailPosition": "55% 35%",
     "images": [
       "/images/projects/ryuiki/hero.jpg"
     ],
@@ -353,7 +354,7 @@
     },
     "period": "2026 -",
     "status": "active",
-    "practice": "Interface",
+    "categories": ["土地", "道具"],
     "role": {
       "ja": "設計・実践",
       "en": "Design & Practice"
@@ -363,6 +364,7 @@
       "en": "A platform that archives the council records of Shintoku, Hokkaido, making visible how a town makes its decisions.\n\nNews reports events. SHINTOKU ATLAS reads the structure of deliberation beneath them.\n\nWho raised what questions. What was decided. What remains unresolved. By placing scattered records onto a shared timeline and context, the project quietly reveals how a place has been shaped over time.\n\nNot to express opinions, but to make structure legible. SHINTOKU ATLAS is an instrument for reading a town."
     },
     "thumbnail": "/images/projects/shintoku-atlas/hero.jpg",
+    "thumbnailPosition": "left center",
     "images": [
       "/images/projects/shintoku-atlas/hero.jpg"
     ],
@@ -379,7 +381,7 @@
     },
     "period": "2013",
     "status": "works",
-    "practice": "Site",
+    "categories": ["土地", "都市"],
     "role": {
       "ja": "キュレーション",
       "en": "Curation"
@@ -434,7 +436,7 @@
     },
     "period": "2013",
     "status": "archive",
-    "practice": "Site",
+    "categories": ["土地", "都市"],
     "role": {
       "ja": "",
       "en": ""

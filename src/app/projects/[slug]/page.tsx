@@ -47,11 +47,6 @@ export default async function ProjectPage({ params }: Props) {
 
   const { prev, next } = getAdjacentProjects(slug);
 
-  const heroObjectPosition =
-    slug === "ryuiki" ? "55% 35%" :
-    slug === "shintoku-atlas" ? "left center" :
-    "center";
-
   return (
     <article className="max-w-7xl mx-auto px-6 md:px-12">
       {/* Back link */}
@@ -66,18 +61,18 @@ export default async function ProjectPage({ params }: Props) {
 
       {/* Title section */}
       <header className="pt-8 md:pt-20 pb-8 md:pb-16">
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-light tracking-tight">
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-light tracking-tight lining-nums">
           {project.title.ja}
         </h1>
         {project.title.en !== project.title.ja && (
           <p className="mt-2 text-sm text-gray-400">{project.title.en}</p>
         )}
-        <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs md:text-sm text-gray-500 tracking-wider">
-          <span className="text-gray-700">
-            {project.practice.toUpperCase().includes("PRACTICE")
-              ? project.practice.toUpperCase()
-              : `${project.practice.toUpperCase()} PRACTICE`}
-          </span>
+        <div className="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs md:text-sm text-gray-500 tracking-wider lining-nums">
+          {project.categories.length > 0 && (
+            <span className="text-gray-700">
+              {project.categories.join(" / ")}
+            </span>
+          )}
           {project.period && <span>{project.period}</span>}
           {project.role.ja && <span>{project.role.ja}</span>}
           {project.status === "active" && (
@@ -95,7 +90,7 @@ export default async function ProjectPage({ params }: Props) {
           alt={project.title.ja}
           fill
           className="object-cover"
-          style={{ objectPosition: heroObjectPosition }}
+          style={{ objectPosition: project.thumbnailPosition }}
           sizes="(max-width: 768px) 100vw, 1280px"
           priority
         />
@@ -111,7 +106,7 @@ export default async function ProjectPage({ params }: Props) {
         <div className="md:col-span-8 space-y-6">
           <div className="space-y-4">
             {project.description.ja.split("\n\n").map((p, i) => (
-              <p key={i} className="text-base md:text-lg leading-relaxed font-light">
+              <p key={i} className="text-base md:text-lg leading-relaxed font-light lining-nums">
                 {p}
               </p>
             ))}
@@ -206,7 +201,7 @@ export default async function ProjectPage({ params }: Props) {
         {project.role.ja && (
           <div>
             <p className="text-sm text-gray-500 tracking-wider mb-1">Role</p>
-            <p className="text-base font-light text-gray-700">{project.role.ja}</p>
+            <p className="text-base font-light text-gray-700 lining-nums">{project.role.ja}</p>
           </div>
         )}
         {(project.externalUrl || project.externalUrlNote) && (
@@ -244,7 +239,7 @@ export default async function ProjectPage({ params }: Props) {
               <p className="text-xs text-gray-400 tracking-wider mb-2">
                 &larr; Prev
               </p>
-              <p className="text-sm font-light group-hover:text-gray-500 transition-colors">
+              <p className="text-sm font-light group-hover:text-gray-500 transition-colors lining-nums">
                 {prev.title.ja}
               </p>
             </Link>
@@ -259,7 +254,7 @@ export default async function ProjectPage({ params }: Props) {
               <p className="text-xs text-gray-400 tracking-wider mb-2">
                 Next &rarr;
               </p>
-              <p className="text-sm font-light group-hover:text-gray-500 transition-colors">
+              <p className="text-sm font-light group-hover:text-gray-500 transition-colors lining-nums">
                 {next.title.ja}
               </p>
             </Link>
